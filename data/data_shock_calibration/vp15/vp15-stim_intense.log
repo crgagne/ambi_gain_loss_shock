@@ -1,0 +1,70 @@
+Scenario - subjective stimulus intensity
+Logfile written - 10/12/2017 21:51:43
+
+Subject	Trial	Event Type	Code	Time	TTime	Uncertainty	Duration	Uncertainty	ReqTime	ReqDur	Stim Type	Pair Index
+
+vp15	1	Picture	present_text	10166	0	1	6833	1	0	next	false_alarm	2
+vp15	1	Response	3	16780	6614	1
+vp15	2	Picture	VAS	16999	0	1	1167	1	0	next	other	0
+vp15	3	Picture	VAS	18166	0	1	1167	1	0	next	other	0
+vp15	4	Picture	VAS	19332	0	1	1167	1	0	next	other	0
+vp15	5	Picture	VAS	20499	0	1	1167	1	0	next	other	0
+vp15	6	Picture	VAS	21666	0	1	1167	1	0	next	other	0
+vp15	7	Picture	VAS	22832	0	1	1167	1	0	next	other	0
+vp15	8	Picture	VAS	23999	0	1	1167	1	0	next	other	0
+vp15	9	Picture	VAS	25165	0	1	1167	1	0	next	other	0
+vp15	10	Picture	VAS	26332	0	1	1167	1	0	next	other	0
+vp15	11	Picture	VAS	27498	0	1	1167	1	0	next	other	0
+vp15	12	Picture	VAS	28665	0	1	1167	1	0	next	false_alarm	14
+vp15	12	Response	3	28906	241	0
+vp15	13	Picture	VAS	29832	0	1	1167	1	0	next	other	0
+vp15	14	Picture	present_text	30998	0	1	102827	1	0	next	false_alarm	17
+vp15	14	Response	3	133710	102712	1
+vp15	14	Response	4	140317	109319	0
+vp15	14	Text Input	1	145694	114696	1
+vp15	14	Response	3	145694	114696	1
+vp15	15	Picture	Jitter	145824	0	1	10166	1	0	next	other	0
+vp15	16	Picture	instruct	155990	0	1	20332	1	0	next	other	0
+vp15	16	Manual	shock delivered	175991	20000	NA
+vp15	17	Picture	present_text	176322	0	1	355311	1	0	next	false_alarm	25
+vp15	17	Response	3	531491	355169	1
+vp15	17	Response	4	537765	361443	0
+vp15	17	Text Input	1	544332	368010	1
+vp15	17	Response	3	544332	368010	1
+vp15	18	Picture	Jitter	544465	0	1	15166	1	0	next	other	0
+vp15	19	Picture	instruct	559631	0	1	20332	1	0	next	other	0
+vp15	19	Manual	shock delivered	579632	20001	NA
+vp15	20	Picture	present_text	579963	0	1	109993	1	0	next	false_alarm	33
+vp15	20	Response	3	689832	109869	1
+vp15	20	Response	4	697465	117502	1
+vp15	20	Text Input	1	705240	125277	0
+vp15	20	Response	3	705240	125277	0
+vp15	21	Picture	Jitter	705455	0	1	5166	1	0	next	other	0
+vp15	22	Picture	instruct	710621	0	1	20332	1	0	next	other	0
+vp15	22	Manual	shock delivered	730622	20000	NA
+vp15	23	Picture	present_text	730953	0	1	91161	1	0	next	false_alarm	41
+vp15	23	Response	3	821908	90955	1
+vp15	23	Response	4	828253	97300	0
+vp15	23	Text Input	1	833389	102436	0
+vp15	23	Response	3	833389	102436	0
+vp15	24	Picture	Jitter	833614	0	1	10166	1	0	next	other	0
+vp15	25	Picture	instruct	843780	0	1	20332	1	0	next	other	0
+vp15	25	Manual	shock delivered	863780	20000	NA
+vp15	26	Picture	present_text	864112	0	1	53830	1	0	next	false_alarm	49
+vp15	26	Response	3	917700	53589	1
+vp15	26	Response	4	929986	65875	1
+vp15	26	Text Input	1	943773	79662	1
+vp15	26	Response	3	943773	79662	1
+vp15	27	Picture	Jitter	943940	0	1	10166	1	0	next	other	0
+vp15	28	Picture	instruct	954106	0	1	20332	1	0	next	other	0
+vp15	28	Manual	shock delivered	974106	20000	NA
+vp15	29	Picture	present_text	974438	0	1	450638	1	0	next	false_alarm	57
+vp15	29	Response	3	1424899	450462	1
+vp15	29	Response	4	1428866	454429	1
+vp15	29	Text Input	1	1436722	462284	0
+vp15	29	Response	3	1436722	462284	0
+vp15	30	Picture	Jitter	1436908	0	1	15166	1	0	next	other	0
+vp15	31	Picture	instruct	1452074	0	1	20332	1	0	next	other	0
+vp15	31	Manual	shock delivered	1472074	20000	NA
+vp15	32	Picture	present_text	1472406	0	1	102071	1	0	next	other	0
+vp15	32	Quit		1554851	82445	NA

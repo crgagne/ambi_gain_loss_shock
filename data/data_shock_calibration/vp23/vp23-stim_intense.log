@@ -1,0 +1,932 @@
+Scenario - subjective stimulus intensity
+Logfile written - 10/18/2017 22:46:29
+
+Subject	Trial	Event Type	Code	Time	TTime	Uncertainty	Duration	Uncertainty	ReqTime	ReqDur	Stim Type	Pair Index
+
+vp23	1	Picture	present_text	10333	0	1	6000	1	0	next	false_alarm	2
+vp23	1	Response	3	16127	5794	1
+vp23	2	Picture	VAS	16332	0	1	1167	1	0	next	other	0
+vp23	3	Picture	VAS	17499	0	1	1167	1	0	next	other	0
+vp23	4	Picture	VAS	18665	0	1	1167	1	0	next	false_alarm	6
+vp23	4	Response	3	19008	342	1
+vp23	5	Picture	VAS	19832	0	1	1167	1	0	next	other	0
+vp23	6	Picture	present_text	20999	0	1	18832	1	0	next	false_alarm	9
+vp23	6	Response	3	39610	18612	2
+vp23	6	Text Input	z	43810	22811	1
+vp23	6	Response	3	43810	22811	1
+vp23	6	Text Input	8	60729	39730	1
+vp23	6	Response	3	60729	39730	1
+vp23	7	Picture	present_text	60995	0	1	16499	1	0	next	false_alarm	15
+vp23	7	Response	3	77186	16190	0
+vp23	8	Picture	present_text	77494	0	1	36497	1	0	next	false_alarm	17
+vp23	8	Response	3	113852	36358	0
+vp23	9	Picture	Jitter	113991	0	1	10166	1	0	next	other	0
+vp23	10	Picture	instruct	124157	0	1	20498	1	0	next	other	0
+vp23	10	Manual	shock delivered	144158	20001	NA
+vp23	10	Manual	shock delivered	144278	20121	NA
+vp23	10	Manual	shock delivered	144398	20242	NA
+vp23	11	Picture	VAS	144655	0	1	1167	1	0	next	other	0
+vp23	12	Picture	VAS	145822	0	1	1167	1	0	next	other	0
+vp23	13	Picture	VAS	146988	0	1	1167	1	0	next	other	0
+vp23	14	Picture	VAS	148155	0	1	1167	1	0	next	other	0
+vp23	15	Picture	VAS	149322	0	1	1167	1	0	next	other	0
+vp23	16	Picture	VAS	150488	0	1	1166	1	0	next	other	0
+vp23	17	Picture	VAS	151655	0	1	1167	1	0	next	other	0
+vp23	18	Picture	VAS	152821	0	1	1167	1	0	next	other	0
+vp23	19	Picture	VAS	153988	0	1	1167	1	0	next	other	0
+vp23	20	Picture	VAS	155154	0	1	1167	1	0	next	other	0
+vp23	21	Picture	VAS	156321	0	1	1166	1	0	next	other	0
+vp23	22	Picture	VAS	157487	0	1	1167	1	0	next	other	0
+vp23	23	Picture	VAS	158654	0	1	1167	1	0	next	other	0
+vp23	24	Picture	VAS	159821	0	1	1166	1	0	next	other	0
+vp23	25	Picture	VAS	160987	0	1	1167	1	0	next	other	0
+vp23	26	Picture	VAS	162154	0	1	1167	1	0	next	other	0
+vp23	27	Picture	VAS	163320	0	1	1167	1	0	next	other	0
+vp23	28	Picture	VAS	164487	0	1	1167	1	0	next	other	0
+vp23	29	Picture	VAS	165653	0	1	1167	1	0	next	other	0
+vp23	30	Picture	VAS	166820	0	1	1166	1	0	next	other	0
+vp23	31	Picture	VAS	167987	0	1	1167	1	0	next	other	0
+vp23	32	Picture	VAS	169153	0	1	1167	1	0	next	other	0
+vp23	33	Picture	VAS	170320	0	1	1167	1	0	next	other	0
+vp23	34	Picture	VAS	171486	0	1	1167	1	0	next	other	0
+vp23	35	Picture	VAS	172653	0	1	1167	1	0	next	other	0
+vp23	36	Picture	VAS	173820	0	1	1166	1	0	next	other	0
+vp23	37	Picture	VAS	174986	0	1	1167	1	0	next	other	0
+vp23	38	Picture	VAS	176153	0	1	1167	1	0	next	other	0
+vp23	39	Picture	VAS	177319	0	1	1166	1	0	next	other	0
+vp23	40	Picture	VAS	178486	0	1	1167	1	0	next	other	0
+vp23	41	Picture	VAS	179652	0	1	1167	1	0	next	other	0
+vp23	42	Picture	VAS	180819	0	1	1167	1	0	next	other	0
+vp23	43	Picture	VAS	181985	0	1	1167	1	0	next	other	0
+vp23	44	Picture	VAS	183152	0	1	1167	1	0	next	other	0
+vp23	45	Picture	VAS	184319	0	1	1166	1	0	next	other	0
+vp23	46	Picture	VAS	185485	0	1	1167	1	0	next	false_alarm	59
+vp23	46	Response	2	186306	820	1
+vp23	47	Picture	VAS	186652	0	1	1167	1	0	next	false_alarm	61
+vp23	47	Response	2	187595	943	1
+vp23	48	Picture	VAS	187818	0	1	1167	1	0	next	other	0
+vp23	49	Picture	VAS	188985	0	1	1167	1	0	next	other	0
+vp23	50	Picture	VAS	190152	0	1	1167	1	0	next	other	0
+vp23	51	Picture	VAS	191318	0	1	1167	1	0	next	other	0
+vp23	52	Picture	VAS	192485	0	1	1167	1	0	next	other	0
+vp23	53	Picture	VAS	193651	0	1	1166	1	0	next	other	0
+vp23	54	Picture	VAS	194818	0	1	1167	1	0	next	other	0
+vp23	55	Picture	VAS	195984	0	1	1167	1	0	next	other	0
+vp23	56	Picture	VAS	197151	0	1	1167	1	0	next	other	0
+vp23	57	Picture	VAS	198317	0	1	1167	1	0	next	other	0
+vp23	58	Picture	VAS	199484	0	1	1167	1	0	next	other	0
+vp23	59	Picture	VAS	200651	0	1	1166	1	0	next	other	0
+vp23	60	Picture	VAS	201817	0	1	1167	1	0	next	other	0
+vp23	61	Picture	VAS	202984	0	1	1167	1	0	next	other	0
+vp23	62	Picture	VAS	204150	0	1	1167	1	0	next	other	0
+vp23	63	Picture	VAS	205317	0	1	1167	1	0	next	other	0
+vp23	64	Picture	VAS	206484	0	1	1167	1	0	next	other	0
+vp23	65	Picture	VAS	207650	0	1	1167	1	0	next	other	0
+vp23	66	Picture	VAS	208817	0	1	1167	1	0	next	other	0
+vp23	67	Picture	VAS	209983	0	1	1167	1	0	next	other	0
+vp23	68	Picture	VAS	211150	0	1	1167	1	0	next	other	0
+vp23	69	Picture	VAS	212316	0	1	1166	1	0	next	other	0
+vp23	70	Picture	VAS	213483	0	1	1167	1	0	next	other	0
+vp23	71	Picture	VAS	214650	0	1	1167	1	0	next	other	0
+vp23	72	Picture	VAS	215816	0	1	1167	1	0	next	other	0
+vp23	73	Picture	VAS	216983	0	1	1166	1	0	next	other	0
+vp23	74	Picture	VAS	218149	0	1	1167	1	0	next	other	0
+vp23	75	Picture	VAS	219316	0	1	1167	1	0	next	other	0
+vp23	76	Picture	VAS	220482	0	1	1167	1	0	next	other	0
+vp23	77	Picture	VAS	221649	0	1	1167	1	0	next	other	0
+vp23	78	Picture	VAS	222816	0	1	1166	1	0	next	other	0
+vp23	79	Picture	VAS	223982	0	1	1167	1	0	next	other	0
+vp23	80	Picture	VAS	225149	0	1	1167	1	0	next	other	0
+vp23	81	Picture	VAS	226315	0	1	1167	1	0	next	other	0
+vp23	82	Picture	VAS	227482	0	1	1167	1	0	next	other	0
+vp23	83	Picture	VAS	228648	0	1	1167	1	0	next	other	0
+vp23	84	Picture	VAS	229815	0	1	1167	1	0	next	other	0
+vp23	85	Picture	VAS	230982	0	1	1167	1	0	next	other	0
+vp23	86	Picture	VAS	232148	0	1	1167	1	0	next	other	0
+vp23	87	Picture	VAS	233315	0	1	1167	1	0	next	other	0
+vp23	88	Picture	VAS	234481	0	1	1167	1	0	next	other	0
+vp23	89	Picture	VAS	235648	0	1	1167	1	0	next	other	0
+vp23	90	Picture	VAS	236814	0	1	1166	1	0	next	other	0
+vp23	91	Picture	VAS	237981	0	1	1167	1	0	next	other	0
+vp23	92	Picture	VAS	239147	0	1	1167	1	0	next	other	0
+vp23	93	Picture	VAS	240314	0	1	1167	1	0	next	other	0
+vp23	94	Picture	VAS	241481	0	1	1167	1	0	next	other	0
+vp23	95	Picture	VAS	242647	0	1	1167	1	0	next	other	0
+vp23	96	Picture	VAS	243814	0	1	1167	1	0	next	other	0
+vp23	97	Picture	VAS	244980	0	1	1166	1	0	next	other	0
+vp23	98	Picture	VAS	246147	0	1	1167	1	0	next	other	0
+vp23	99	Picture	VAS	247313	0	1	1167	1	0	next	other	0
+vp23	100	Picture	VAS	248480	0	1	1167	1	0	next	other	0
+vp23	101	Picture	VAS	249647	0	1	1167	1	0	next	other	0
+vp23	102	Picture	VAS	250813	0	1	1167	1	0	next	other	0
+vp23	103	Picture	VAS	251980	0	1	1167	1	0	next	other	0
+vp23	104	Picture	VAS	253146	0	1	1167	1	0	next	other	0
+vp23	105	Picture	VAS	254313	0	1	1166	1	0	next	other	0
+vp23	106	Picture	VAS	255479	0	1	1167	1	0	next	other	0
+vp23	107	Picture	VAS	256646	0	1	1167	1	0	next	other	0
+vp23	108	Picture	VAS	257813	0	1	1167	1	0	next	other	0
+vp23	109	Picture	VAS	258979	0	1	1167	1	0	next	other	0
+vp23	110	Picture	VAS	260146	0	1	1166	1	0	next	other	0
+vp23	111	Picture	VAS	261312	0	1	1167	1	0	next	other	0
+vp23	112	Picture	VAS	262479	0	1	1167	1	0	next	other	0
+vp23	113	Picture	VAS	263645	0	1	1167	1	0	next	other	0
+vp23	114	Picture	VAS	264812	0	1	1167	1	0	next	other	0
+vp23	115	Picture	VAS	265979	0	1	1167	1	0	next	other	0
+vp23	116	Picture	VAS	267145	0	1	1167	1	0	next	other	0
+vp23	117	Picture	VAS	268312	0	1	1167	1	0	next	other	0
+vp23	118	Picture	VAS	269478	0	1	1167	1	0	next	other	0
+vp23	119	Picture	VAS	270645	0	1	1167	1	0	next	other	0
+vp23	120	Picture	VAS	271812	0	1	1167	1	0	next	other	0
+vp23	121	Picture	VAS	272978	0	1	1167	1	0	next	other	0
+vp23	122	Picture	VAS	274145	0	1	1167	1	0	next	other	0
+vp23	123	Picture	VAS	275311	0	1	1167	1	0	next	other	0
+vp23	124	Picture	VAS	276478	0	1	1167	1	0	next	other	0
+vp23	125	Picture	VAS	277644	0	1	1167	1	0	next	other	0
+vp23	126	Picture	VAS	278811	0	1	1167	1	0	next	other	0
+vp23	127	Picture	VAS	279978	0	1	1167	1	0	next	other	0
+vp23	128	Picture	VAS	281144	0	1	1167	1	0	next	other	0
+vp23	129	Picture	VAS	282311	0	1	1166	1	0	next	other	0
+vp23	130	Picture	VAS	283477	0	1	1167	1	0	next	other	0
+vp23	131	Picture	VAS	284644	0	1	1167	1	0	next	other	0
+vp23	132	Picture	VAS	285810	0	1	1166	1	0	next	other	0
+vp23	133	Picture	VAS	286977	0	1	1167	1	0	next	other	0
+vp23	134	Picture	VAS	288144	0	1	1167	1	0	next	other	0
+vp23	135	Picture	VAS	289310	0	1	1166	1	0	next	other	0
+vp23	136	Picture	VAS	290477	0	1	1167	1	0	next	other	0
+vp23	137	Picture	VAS	291643	0	1	1167	1	0	next	other	0
+vp23	138	Picture	VAS	292810	0	1	1167	1	0	next	other	0
+vp23	139	Picture	VAS	293976	0	1	1167	1	0	next	other	0
+vp23	140	Picture	VAS	295143	0	1	1166	1	0	next	other	0
+vp23	141	Picture	VAS	296309	0	1	1167	1	0	next	other	0
+vp23	142	Picture	VAS	297476	0	1	1167	1	0	next	other	0
+vp23	143	Picture	VAS	298643	0	1	1166	1	0	next	false_alarm	158
+vp23	143	Response	3	299350	707	3
+vp23	144	Picture	VAS	299809	0	1	1167	1	0	next	other	0
+vp23	145	Picture	Jitter	300976	0	1	5166	1	0	next	other	0
+vp23	146	Picture	instruct	306142	0	1	20665	1	0	next	other	0
+vp23	146	Manual	shock delivered	326143	20001	NA
+vp23	146	Manual	shock delivered	326263	20121	NA
+vp23	146	Manual	shock delivered	326384	20242	NA
+vp23	146	Manual	shock delivered	326504	20362	NA
+vp23	147	Picture	VAS	326807	0	1	1167	1	0	next	other	0
+vp23	148	Picture	VAS	327974	0	1	1167	1	0	next	other	0
+vp23	149	Picture	VAS	329140	0	1	1166	1	0	next	other	0
+vp23	150	Picture	VAS	330307	0	1	1167	1	0	next	other	0
+vp23	151	Picture	VAS	331473	0	1	1167	1	0	next	other	0
+vp23	152	Picture	VAS	332640	0	1	1166	1	0	next	other	0
+vp23	153	Picture	VAS	333806	0	1	1167	1	0	next	other	0
+vp23	154	Picture	VAS	334973	0	1	1167	1	0	next	other	0
+vp23	155	Picture	VAS	336140	0	1	1167	1	0	next	other	0
+vp23	156	Picture	VAS	337306	0	1	1166	1	0	next	other	0
+vp23	157	Picture	VAS	338473	0	1	1167	1	0	next	other	0
+vp23	158	Picture	VAS	339639	0	1	1167	1	0	next	other	0
+vp23	159	Picture	VAS	340806	0	1	1167	1	0	next	other	0
+vp23	160	Picture	VAS	341973	0	1	1166	1	0	next	other	0
+vp23	161	Picture	VAS	343139	0	1	1167	1	0	next	other	0
+vp23	162	Picture	VAS	344306	0	1	1167	1	0	next	other	0
+vp23	163	Picture	VAS	345472	0	1	1167	1	0	next	other	0
+vp23	164	Picture	VAS	346639	0	1	1167	1	0	next	other	0
+vp23	165	Picture	VAS	347805	0	1	1167	1	0	next	other	0
+vp23	166	Picture	VAS	348972	0	1	1167	1	0	next	other	0
+vp23	167	Picture	VAS	350139	0	1	1166	1	0	next	other	0
+vp23	168	Picture	VAS	351305	0	1	1167	1	0	next	other	0
+vp23	169	Picture	VAS	352472	0	1	1167	1	0	next	other	0
+vp23	170	Picture	VAS	353638	0	1	1167	1	0	next	other	0
+vp23	171	Picture	VAS	354805	0	1	1167	1	0	next	other	0
+vp23	172	Picture	VAS	355971	0	1	1167	1	0	next	other	0
+vp23	173	Picture	VAS	357138	0	1	1166	1	0	next	other	0
+vp23	174	Picture	VAS	358304	0	1	1167	1	0	next	other	0
+vp23	175	Picture	VAS	359471	0	1	1167	1	0	next	false_alarm	195
+vp23	175	Response	2	360173	702	0
+vp23	176	Picture	VAS	360638	0	1	1167	1	0	next	other	0
+vp23	177	Picture	VAS	361804	0	1	1166	1	0	next	other	0
+vp23	178	Picture	VAS	362971	0	1	1167	1	0	next	other	0
+vp23	179	Picture	VAS	364137	0	1	1166	1	0	next	other	0
+vp23	180	Picture	VAS	365304	0	1	1167	1	0	next	other	0
+vp23	181	Picture	VAS	366470	0	1	1167	1	0	next	other	0
+vp23	182	Picture	VAS	367637	0	1	1167	1	0	next	other	0
+vp23	183	Picture	VAS	368804	0	1	1167	1	0	next	other	0
+vp23	184	Picture	VAS	369970	0	1	1167	1	0	next	other	0
+vp23	185	Picture	VAS	371137	0	1	1167	1	0	next	other	0
+vp23	186	Picture	VAS	372303	0	1	1167	1	0	next	other	0
+vp23	187	Picture	VAS	373470	0	1	1167	1	0	next	other	0
+vp23	188	Picture	VAS	374637	0	1	1167	1	0	next	other	0
+vp23	189	Picture	VAS	375803	0	1	1167	1	0	next	other	0
+vp23	190	Picture	VAS	376970	0	1	1167	1	0	next	other	0
+vp23	191	Picture	VAS	378136	0	1	1166	1	0	next	other	0
+vp23	192	Picture	VAS	379303	0	1	1167	1	0	next	false_alarm	213
+vp23	192	Response	3	379632	329	1
+vp23	193	Picture	VAS	380469	0	1	1167	1	0	next	other	0
+vp23	194	Picture	Jitter	381636	0	1	5166	1	0	next	other	0
+vp23	195	Picture	instruct	386802	0	1	20832	1	0	next	other	0
+vp23	195	Manual	shock delivered	406803	20001	NA
+vp23	195	Manual	shock delivered	406923	20121	NA
+vp23	195	Manual	shock delivered	407044	20242	NA
+vp23	195	Manual	shock delivered	407164	20362	NA
+vp23	195	Manual	shock delivered	407284	20482	NA
+vp23	196	Picture	VAS	407634	0	1	1167	1	0	next	other	0
+vp23	197	Picture	VAS	408800	0	1	1167	1	0	next	other	0
+vp23	198	Picture	VAS	409967	0	1	1167	2	0	next	other	0
+vp23	199	Picture	VAS	411134	0	2	1167	2	0	next	other	0
+vp23	200	Picture	VAS	412300	0	1	1166	1	0	next	other	0
+vp23	201	Picture	VAS	413467	0	1	1167	1	0	next	other	0
+vp23	202	Picture	VAS	414633	0	1	1166	1	0	next	other	0
+vp23	203	Picture	VAS	415800	0	1	1167	1	0	next	other	0
+vp23	204	Picture	VAS	416966	0	1	1166	1	0	next	other	0
+vp23	205	Picture	VAS	418133	0	1	1167	1	0	next	other	0
+vp23	206	Picture	VAS	419299	0	1	1167	1	0	next	other	0
+vp23	207	Picture	VAS	420466	0	1	1167	1	0	next	other	0
+vp23	208	Picture	VAS	421633	0	1	1167	1	0	next	other	0
+vp23	209	Picture	VAS	422799	0	1	1167	1	0	next	other	0
+vp23	210	Picture	VAS	423966	0	1	1167	1	0	next	other	0
+vp23	211	Picture	VAS	425132	0	1	1167	1	0	next	other	0
+vp23	212	Picture	VAS	426299	0	1	1166	1	0	next	other	0
+vp23	213	Picture	VAS	427465	0	1	1167	1	0	next	other	0
+vp23	214	Picture	VAS	428632	0	1	1166	1	0	next	other	0
+vp23	215	Picture	VAS	429799	0	1	1167	1	0	next	other	0
+vp23	216	Picture	VAS	430965	0	1	1167	1	0	next	other	0
+vp23	217	Picture	VAS	432132	0	1	1167	1	0	next	other	0
+vp23	218	Picture	VAS	433298	0	1	1166	1	0	next	other	0
+vp23	219	Picture	VAS	434465	0	1	1167	1	0	next	other	0
+vp23	220	Picture	VAS	435631	0	1	1167	1	0	next	other	0
+vp23	221	Picture	VAS	436798	0	1	1167	1	0	next	other	0
+vp23	222	Picture	VAS	437965	0	1	1166	1	0	next	other	0
+vp23	223	Picture	VAS	439131	0	1	1167	1	0	next	other	0
+vp23	224	Picture	VAS	440298	0	1	1166	1	0	next	other	0
+vp23	225	Picture	VAS	441464	0	1	1167	1	0	next	other	0
+vp23	226	Picture	VAS	442631	0	1	1167	1	0	next	other	0
+vp23	227	Picture	VAS	443798	0	1	1167	1	0	next	other	0
+vp23	228	Picture	VAS	444964	0	1	1167	1	0	next	other	0
+vp23	229	Picture	VAS	446131	0	1	1167	1	0	next	other	0
+vp23	230	Picture	VAS	447297	0	1	1166	1	0	next	other	0
+vp23	231	Picture	VAS	448464	0	1	1167	1	0	next	other	0
+vp23	232	Picture	VAS	449630	0	1	1167	1	0	next	other	0
+vp23	233	Picture	VAS	450797	0	1	1167	1	0	next	other	0
+vp23	234	Picture	VAS	451963	0	1	1167	1	0	next	other	0
+vp23	235	Picture	VAS	453130	0	1	1166	1	0	next	other	0
+vp23	236	Picture	VAS	454297	0	1	1167	1	0	next	other	0
+vp23	237	Picture	VAS	455463	0	1	1167	1	0	next	other	0
+vp23	238	Picture	VAS	456630	0	1	1166	1	0	next	other	0
+vp23	239	Picture	VAS	457796	0	1	1167	1	0	next	other	0
+vp23	240	Picture	VAS	458963	0	1	1167	1	0	next	other	0
+vp23	241	Picture	VAS	460130	0	1	1166	1	0	next	other	0
+vp23	242	Picture	VAS	461296	0	1	1167	1	0	next	other	0
+vp23	243	Picture	VAS	462463	0	1	1167	1	0	next	other	0
+vp23	244	Picture	VAS	463629	0	1	1167	1	0	next	other	0
+vp23	245	Picture	VAS	464796	0	1	1166	1	0	next	other	0
+vp23	246	Picture	VAS	465962	0	1	1167	1	0	next	other	0
+vp23	247	Picture	VAS	467129	0	1	1167	1	0	next	other	0
+vp23	248	Picture	VAS	468296	0	1	1166	1	0	next	other	0
+vp23	249	Picture	VAS	469462	0	1	1167	1	0	next	false_alarm	276
+vp23	249	Response	3	470407	945	1
+vp23	250	Picture	VAS	470629	0	1	1167	1	0	next	other	0
+vp23	251	Picture	Jitter	471795	0	1	5166	1	0	next	other	0
+vp23	252	Picture	instruct	476962	0	1	20498	1	0	next	other	0
+vp23	252	Manual	shock delivered	496963	20001	NA
+vp23	252	Manual	shock delivered	497083	20122	NA
+vp23	253	Picture	VAS	497460	0	1	1167	1	0	next	other	0
+vp23	254	Picture	VAS	498626	0	1	1167	1	0	next	other	0
+vp23	255	Picture	VAS	499793	0	1	1167	1	0	next	other	0
+vp23	256	Picture	VAS	500960	0	1	1167	1	0	next	other	0
+vp23	257	Picture	VAS	502126	0	1	1166	1	0	next	other	0
+vp23	258	Picture	VAS	503293	0	1	1167	1	0	next	other	0
+vp23	259	Picture	VAS	504459	0	1	1166	1	0	next	other	0
+vp23	260	Picture	VAS	505626	0	1	1167	1	0	next	other	0
+vp23	261	Picture	VAS	506792	0	1	1167	1	0	next	other	0
+vp23	262	Picture	VAS	507959	0	1	1167	1	0	next	other	0
+vp23	263	Picture	VAS	509126	0	1	1167	1	0	next	other	0
+vp23	264	Picture	VAS	510292	0	1	1167	1	0	next	other	0
+vp23	265	Picture	VAS	511459	0	1	1167	1	0	next	other	0
+vp23	266	Picture	VAS	512625	0	1	1166	1	0	next	other	0
+vp23	267	Picture	VAS	513792	0	1	1167	1	0	next	other	0
+vp23	268	Picture	VAS	514958	0	1	1167	1	0	next	other	0
+vp23	269	Picture	VAS	516125	0	1	1166	1	0	next	other	0
+vp23	270	Picture	VAS	517291	0	1	1167	1	0	next	other	0
+vp23	271	Picture	VAS	518458	0	1	1166	1	0	next	other	0
+vp23	272	Picture	VAS	519625	0	1	1167	1	0	next	other	0
+vp23	273	Picture	VAS	520791	0	1	1167	1	0	next	other	0
+vp23	274	Picture	VAS	521958	0	1	1167	1	0	next	other	0
+vp23	275	Picture	VAS	523124	0	1	1167	1	0	next	other	0
+vp23	276	Picture	VAS	524291	0	1	1167	1	0	next	false_alarm	306
+vp23	276	Response	1	524805	514	0
+vp23	277	Picture	VAS	525458	0	1	1166	1	0	next	other	0
+vp23	278	Picture	VAS	526624	0	1	1167	1	0	next	other	0
+vp23	279	Picture	VAS	527791	0	1	1167	1	0	next	other	0
+vp23	280	Picture	VAS	528957	0	1	1167	1	0	next	other	0
+vp23	281	Picture	VAS	530124	0	1	1167	1	0	next	other	0
+vp23	282	Picture	VAS	531290	0	1	1167	1	0	next	other	0
+vp23	283	Picture	VAS	532457	0	1	1166	1	0	next	other	0
+vp23	284	Picture	VAS	533623	0	1	1167	1	0	next	other	0
+vp23	285	Picture	VAS	534790	0	1	1166	1	0	next	other	0
+vp23	286	Picture	VAS	535956	0	1	1167	1	0	next	other	0
+vp23	287	Picture	VAS	537123	0	1	1167	1	0	next	other	0
+vp23	288	Picture	VAS	538290	0	1	1167	1	0	next	other	0
+vp23	289	Picture	VAS	539456	0	1	1167	1	0	next	other	0
+vp23	290	Picture	VAS	540623	0	1	1167	1	0	next	other	0
+vp23	291	Picture	VAS	541790	0	1	1167	1	0	next	other	0
+vp23	292	Picture	VAS	542956	0	1	1167	1	0	next	false_alarm	323
+vp23	292	Response	3	543096	140	1
+vp23	293	Picture	VAS	544123	0	1	1167	1	0	next	other	0
+vp23	294	Picture	Jitter	545289	0	1	15166	1	0	next	other	0
+vp23	295	Picture	instruct	560455	0	1	20498	1	0	next	other	0
+vp23	295	Manual	shock delivered	580456	20001	NA
+vp23	295	Manual	shock delivered	580576	20121	NA
+vp23	295	Manual	shock delivered	580696	20241	NA
+vp23	296	Picture	VAS	580953	0	1	1167	1	0	next	other	0
+vp23	297	Picture	VAS	582120	0	1	1167	1	0	next	other	0
+vp23	298	Picture	VAS	583286	0	1	1167	1	0	next	other	0
+vp23	299	Picture	VAS	584453	0	1	1167	1	0	next	other	0
+vp23	300	Picture	VAS	585619	0	1	1167	1	0	next	other	0
+vp23	301	Picture	VAS	586786	0	1	1167	1	0	next	other	0
+vp23	302	Picture	VAS	587952	0	1	1167	1	0	next	other	0
+vp23	303	Picture	VAS	589119	0	1	1167	1	0	next	other	0
+vp23	304	Picture	VAS	590286	0	1	1167	1	0	next	other	0
+vp23	305	Picture	VAS	591452	0	1	1167	1	0	next	other	0
+vp23	306	Picture	VAS	592619	0	1	1167	1	0	next	other	0
+vp23	307	Picture	VAS	593785	0	1	1167	1	0	next	other	0
+vp23	308	Picture	VAS	594952	0	1	1167	1	0	next	other	0
+vp23	309	Picture	VAS	596118	0	1	1166	1	0	next	other	0
+vp23	310	Picture	VAS	597285	0	1	1167	1	0	next	other	0
+vp23	311	Picture	VAS	598452	0	1	1167	1	0	next	other	0
+vp23	312	Picture	VAS	599618	0	1	1167	1	0	next	other	0
+vp23	313	Picture	VAS	600785	0	1	1167	1	0	next	other	0
+vp23	314	Picture	VAS	601951	0	1	1167	1	0	next	other	0
+vp23	315	Picture	VAS	603118	0	1	1167	1	0	next	other	0
+vp23	316	Picture	VAS	604284	0	1	1167	1	0	next	other	0
+vp23	317	Picture	VAS	605451	0	1	1167	1	0	next	other	0
+vp23	318	Picture	VAS	606618	0	1	1166	1	0	next	other	0
+vp23	319	Picture	VAS	607784	0	1	1167	1	0	next	other	0
+vp23	320	Picture	VAS	608951	0	1	1167	1	0	next	other	0
+vp23	321	Picture	VAS	610117	0	1	1167	1	0	next	other	0
+vp23	322	Picture	VAS	611284	0	1	1167	1	0	next	other	0
+vp23	323	Picture	VAS	612451	0	1	1167	1	0	next	other	0
+vp23	324	Picture	VAS	613617	0	1	1167	1	0	next	other	0
+vp23	325	Picture	VAS	614784	0	1	1167	1	0	next	other	0
+vp23	326	Picture	VAS	615950	0	1	1167	1	0	next	other	0
+vp23	327	Picture	VAS	617117	0	1	1167	1	0	next	false_alarm	362
+vp23	327	Response	1	617575	458	0
+vp23	328	Picture	VAS	618283	0	1	1167	1	0	next	false_alarm	364
+vp23	328	Response	1	619277	994	1
+vp23	329	Picture	VAS	619450	0	1	1167	1	0	next	other	0
+vp23	330	Picture	VAS	620616	0	1	1167	1	0	next	other	0
+vp23	331	Picture	VAS	621783	0	1	1166	1	0	next	other	0
+vp23	332	Picture	VAS	622950	0	1	1167	1	0	next	other	0
+vp23	333	Picture	VAS	624116	0	1	1167	1	0	next	other	0
+vp23	334	Picture	VAS	625283	0	1	1167	1	0	next	other	0
+vp23	335	Picture	VAS	626449	0	1	1166	1	0	next	other	0
+vp23	336	Picture	VAS	627616	0	1	1167	1	0	next	other	0
+vp23	337	Picture	VAS	628782	0	1	1167	1	0	next	other	0
+vp23	338	Picture	VAS	629949	0	1	1167	1	0	next	other	0
+vp23	339	Picture	VAS	631116	0	1	1167	1	0	next	other	0
+vp23	340	Picture	VAS	632282	0	1	1166	1	0	next	other	0
+vp23	341	Picture	VAS	633449	0	1	1167	1	0	next	other	0
+vp23	342	Picture	VAS	634615	0	1	1167	1	0	next	other	0
+vp23	343	Picture	VAS	635782	0	1	1167	1	0	next	other	0
+vp23	344	Picture	VAS	636949	0	1	1167	1	0	next	false_alarm	381
+vp23	344	Response	3	637698	750	0
+vp23	345	Picture	VAS	638115	0	1	1333	1	0	next	other	0
+vp23	346	Picture	Jitter	639448	0	1	15165	1	0	next	other	0
+vp23	347	Picture	instruct	654614	0	1	20332	1	0	next	other	0
+vp23	347	Manual	shock delivered	674615	20001	NA
+vp23	348	Picture	VAS	674945	0	1	1167	1	0	next	other	0
+vp23	349	Picture	VAS	676112	0	1	1167	1	0	next	other	0
+vp23	350	Picture	VAS	677279	0	1	1166	1	0	next	other	0
+vp23	351	Picture	VAS	678445	0	1	1167	1	0	next	other	0
+vp23	352	Picture	VAS	679612	0	1	1167	1	0	next	other	0
+vp23	353	Picture	VAS	680778	0	1	1166	1	0	next	other	0
+vp23	354	Picture	VAS	681945	0	1	1167	1	0	next	other	0
+vp23	355	Picture	VAS	683111	0	1	1166	1	0	next	other	0
+vp23	356	Picture	VAS	684278	0	1	1167	1	0	next	other	0
+vp23	357	Picture	VAS	685445	0	1	1167	1	0	next	other	0
+vp23	358	Picture	VAS	686611	0	1	1167	1	0	next	other	0
+vp23	359	Picture	VAS	687778	0	1	1167	1	0	next	other	0
+vp23	360	Picture	VAS	688944	0	1	1166	1	0	next	other	0
+vp23	361	Picture	VAS	690111	0	1	1167	1	0	next	other	0
+vp23	362	Picture	VAS	691277	0	1	1167	1	0	next	other	0
+vp23	363	Picture	VAS	692444	0	1	1167	1	0	next	other	0
+vp23	364	Picture	VAS	693611	0	1	1167	1	0	next	false_alarm	403
+vp23	364	Response	1	694432	822	1
+vp23	365	Picture	VAS	694777	0	1	1167	1	0	next	other	0
+vp23	366	Picture	VAS	695944	0	1	1167	1	0	next	false_alarm	406
+vp23	366	Response	1	696246	302	1
+vp23	367	Picture	VAS	697110	0	1	1167	1	0	next	false_alarm	408
+vp23	367	Response	1	697846	735	1
+vp23	368	Picture	VAS	698277	0	1	1167	1	0	next	other	0
+vp23	369	Picture	VAS	699443	0	1	1166	1	0	next	false_alarm	411
+vp23	369	Response	1	699458	15	0
+vp23	370	Picture	VAS	700610	0	1	1167	1	0	next	other	0
+vp23	371	Picture	VAS	701777	0	1	1167	1	0	next	other	0
+vp23	372	Picture	VAS	702943	0	1	1167	1	0	next	other	0
+vp23	373	Picture	VAS	704110	0	1	1167	1	0	next	other	0
+vp23	374	Picture	VAS	705276	0	1	1167	1	0	next	other	0
+vp23	375	Picture	VAS	706443	0	1	1167	1	0	next	other	0
+vp23	376	Picture	VAS	707609	0	1	1167	1	0	next	other	0
+vp23	376	Response	3	708644	1035	1
+vp23	377	Picture	VAS	708776	0	1	1167	1	0	next	other	0
+vp23	378	Picture	VAS	709943	0	1	1167	1	0	next	other	0
+vp23	379	Picture	Jitter	711109	0	1	10166	1	0	next	other	0
+vp23	380	Picture	instruct	721275	0	1	20665	1	0	next	other	0
+vp23	380	Manual	shock delivered	741276	20001	NA
+vp23	380	Manual	shock delivered	741396	20121	NA
+vp23	380	Manual	shock delivered	741517	20242	NA
+vp23	380	Manual	shock delivered	741637	20362	NA
+vp23	381	Picture	VAS	741940	0	1	1166	1	0	next	other	0
+vp23	382	Picture	VAS	743106	0	1	1167	1	0	next	other	0
+vp23	383	Picture	VAS	744273	0	1	1167	1	0	next	other	0
+vp23	384	Picture	VAS	745440	0	1	1167	1	0	next	other	0
+vp23	385	Picture	VAS	746606	0	1	1166	1	0	next	other	0
+vp23	386	Picture	VAS	747773	0	1	1167	1	0	next	other	0
+vp23	387	Picture	VAS	748939	0	1	1167	1	0	next	other	0
+vp23	388	Picture	VAS	750106	0	1	1166	1	0	next	other	0
+vp23	389	Picture	VAS	751272	0	1	1167	1	0	next	other	0
+vp23	390	Picture	VAS	752439	0	1	1167	1	0	next	other	0
+vp23	391	Picture	VAS	753606	0	1	1166	1	0	next	other	0
+vp23	392	Picture	VAS	754772	0	1	1167	1	0	next	other	0
+vp23	393	Picture	VAS	755939	0	1	1167	1	0	next	other	0
+vp23	394	Picture	VAS	757105	0	1	1166	1	0	next	other	0
+vp23	395	Picture	VAS	758272	0	1	1167	1	0	next	other	0
+vp23	396	Picture	VAS	759439	0	1	1167	1	0	next	other	0
+vp23	397	Picture	VAS	760605	0	1	1167	1	0	next	other	0
+vp23	398	Picture	VAS	761772	0	1	1167	1	0	next	other	0
+vp23	399	Picture	VAS	762938	0	1	1166	1	0	next	other	0
+vp23	400	Picture	VAS	764105	0	1	1167	1	0	next	other	0
+vp23	401	Picture	VAS	765271	0	1	1167	1	0	next	other	0
+vp23	402	Picture	VAS	766438	0	1	1166	1	0	next	other	0
+vp23	403	Picture	VAS	767604	0	1	1167	1	0	next	false_alarm	451
+vp23	403	Response	1	768300	695	0
+vp23	404	Picture	VAS	768771	0	1	1167	1	0	next	other	0
+vp23	405	Picture	VAS	769938	0	1	1166	1	0	next	false_alarm	454
+vp23	405	Response	1	770022	85	0
+vp23	406	Picture	VAS	771104	0	1	1167	1	0	next	false_alarm	456
+vp23	406	Response	1	771492	388	1
+vp23	407	Picture	VAS	772271	0	1	1167	1	0	next	other	0
+vp23	408	Picture	VAS	773437	0	1	1167	1	0	next	other	0
+vp23	409	Picture	VAS	774604	0	1	1166	1	0	next	other	0
+vp23	410	Picture	VAS	775770	0	1	1167	1	0	next	other	0
+vp23	411	Picture	VAS	776937	0	1	1166	1	0	next	other	0
+vp23	412	Picture	VAS	778104	0	1	1167	1	0	next	other	0
+vp23	413	Picture	VAS	779270	0	1	1167	1	0	next	other	0
+vp23	414	Picture	VAS	780437	0	1	1167	1	0	next	other	0
+vp23	415	Picture	VAS	781603	0	1	1167	1	0	next	other	0
+vp23	416	Picture	VAS	782770	0	1	1167	1	0	next	other	0
+vp23	417	Picture	VAS	783937	0	1	1167	1	0	next	other	0
+vp23	418	Picture	VAS	785103	0	1	1167	1	0	next	other	0
+vp23	419	Picture	VAS	786270	0	1	1166	1	0	next	other	0
+vp23	420	Picture	VAS	787436	0	1	1167	1	0	next	other	0
+vp23	421	Picture	VAS	788603	0	1	1167	1	0	next	false_alarm	472
+vp23	421	Response	3	788883	280	0
+vp23	422	Picture	VAS	789769	0	1	1166	1	0	next	other	0
+vp23	423	Picture	Jitter	790936	0	1	5166	1	0	next	other	0
+vp23	424	Picture	instruct	796102	0	1	20998	1	0	next	other	0
+vp23	424	Manual	shock delivered	816103	20001	NA
+vp23	424	Manual	shock delivered	816224	20121	NA
+vp23	424	Manual	shock delivered	816344	20242	NA
+vp23	424	Manual	shock delivered	816464	20362	NA
+vp23	424	Manual	shock delivered	816584	20482	NA
+vp23	424	Manual	shock delivered	816705	20603	NA
+vp23	424	Manual	shock delivered	816825	20723	NA
+vp23	425	Picture	VAS	817100	0	1	1167	1	0	next	other	0
+vp23	426	Picture	VAS	818267	0	1	1167	1	0	next	other	0
+vp23	427	Picture	VAS	819434	0	1	1167	1	0	next	other	0
+vp23	428	Picture	VAS	820600	0	1	1166	1	0	next	other	0
+vp23	429	Picture	VAS	821767	0	1	1167	1	0	next	other	0
+vp23	430	Picture	VAS	822933	0	1	1167	1	0	next	other	0
+vp23	431	Picture	VAS	824100	0	1	1167	1	0	next	other	0
+vp23	432	Picture	VAS	825267	0	1	1167	1	0	next	other	0
+vp23	433	Picture	VAS	826433	0	1	1167	1	0	next	other	0
+vp23	434	Picture	VAS	827600	0	1	1167	1	0	next	other	0
+vp23	435	Picture	VAS	828766	0	1	1167	1	0	next	other	0
+vp23	436	Picture	VAS	829933	0	1	1166	1	0	next	other	0
+vp23	437	Picture	VAS	831099	0	1	1167	1	0	next	other	0
+vp23	438	Picture	VAS	832266	0	1	1167	1	0	next	other	0
+vp23	439	Picture	VAS	833432	0	1	1167	1	0	next	other	0
+vp23	440	Picture	VAS	834599	0	1	1166	1	0	next	other	0
+vp23	441	Picture	VAS	835766	0	1	1167	1	0	next	other	0
+vp23	442	Picture	VAS	836932	0	1	1167	1	0	next	other	0
+vp23	443	Picture	VAS	838099	0	1	1167	1	0	next	other	0
+vp23	444	Picture	VAS	839265	0	1	1167	1	0	next	other	0
+vp23	445	Picture	VAS	840432	0	1	1166	1	0	next	other	0
+vp23	446	Picture	VAS	841598	0	1	1167	1	0	next	other	0
+vp23	447	Picture	VAS	842765	0	1	1167	1	0	next	other	0
+vp23	448	Picture	VAS	843932	0	1	1167	1	0	next	other	0
+vp23	449	Picture	VAS	845098	0	1	1167	1	0	next	other	0
+vp23	450	Picture	VAS	846265	0	1	1167	1	0	next	other	0
+vp23	451	Picture	VAS	847431	0	1	1167	1	0	next	other	0
+vp23	452	Picture	VAS	848598	0	1	1167	1	0	next	other	0
+vp23	453	Picture	VAS	849764	0	1	1167	1	0	next	false_alarm	512
+vp23	453	Response	1	850575	811	1
+vp23	454	Picture	VAS	850931	0	1	1166	1	0	next	other	0
+vp23	455	Picture	VAS	852098	0	1	1167	1	0	next	other	0
+vp23	456	Picture	VAS	853264	0	1	1167	1	0	next	other	0
+vp23	457	Picture	VAS	854431	0	1	1167	1	0	next	other	0
+vp23	458	Picture	VAS	855597	0	1	1167	1	0	next	other	0
+vp23	459	Picture	VAS	856764	0	1	1167	1	0	next	other	0
+vp23	460	Picture	VAS	857931	0	1	1166	1	0	next	other	0
+vp23	461	Picture	VAS	859097	0	1	1167	1	0	next	other	0
+vp23	462	Picture	VAS	860264	0	1	1167	1	0	next	other	0
+vp23	463	Picture	VAS	861430	0	1	1167	1	0	next	other	0
+vp23	464	Picture	VAS	862597	0	1	1167	1	0	next	other	0
+vp23	465	Picture	VAS	863763	0	1	1166	1	0	next	other	0
+vp23	466	Picture	VAS	864930	0	1	1167	1	0	next	other	0
+vp23	467	Picture	VAS	866096	0	1	1167	1	0	next	other	0
+vp23	467	Response	3	867171	1075	4
+vp23	468	Picture	VAS	867263	0	1	1167	1	0	next	other	0
+vp23	469	Picture	VAS	868430	0	1	1167	1	0	next	other	0
+vp23	470	Picture	Jitter	869596	0	1	10166	1	0	next	other	0
+vp23	471	Picture	instruct	879762	0	1	20832	1	0	next	other	0
+vp23	471	Manual	shock delivered	899763	20001	NA
+vp23	471	Manual	shock delivered	899883	20121	NA
+vp23	471	Manual	shock delivered	900003	20241	NA
+vp23	471	Manual	shock delivered	900124	20362	NA
+vp23	471	Manual	shock delivered	900244	20482	NA
+vp23	471	Manual	shock delivered	900364	20602	NA
+vp23	472	Picture	VAS	900594	0	1	1166	1	0	next	other	0
+vp23	473	Picture	VAS	901760	0	1	1167	1	0	next	other	0
+vp23	474	Picture	VAS	902927	0	1	1167	1	0	next	other	0
+vp23	475	Picture	VAS	904093	0	1	1167	1	0	next	other	0
+vp23	476	Picture	VAS	905260	0	1	1166	1	0	next	other	0
+vp23	477	Picture	VAS	906427	0	1	1167	1	0	next	other	0
+vp23	478	Picture	VAS	907593	0	1	1167	1	0	next	other	0
+vp23	479	Picture	VAS	908760	0	1	1167	1	0	next	other	0
+vp23	480	Picture	VAS	909926	0	1	1167	1	0	next	other	0
+vp23	481	Picture	VAS	911093	0	1	1167	1	0	next	other	0
+vp23	482	Picture	VAS	912259	0	1	1167	1	0	next	other	0
+vp23	483	Picture	VAS	913426	0	1	1167	1	0	next	other	0
+vp23	484	Picture	VAS	914593	0	1	1167	1	0	next	other	0
+vp23	485	Picture	VAS	915759	0	1	1166	1	0	next	other	0
+vp23	486	Picture	VAS	916926	0	1	1167	1	0	next	other	0
+vp23	487	Picture	VAS	918092	0	1	1167	1	0	next	other	0
+vp23	488	Picture	VAS	919259	0	1	1167	1	0	next	other	0
+vp23	489	Picture	VAS	920425	0	1	1167	1	0	next	other	0
+vp23	490	Picture	VAS	921592	0	1	1167	1	0	next	other	0
+vp23	491	Picture	VAS	922759	0	1	1166	1	0	next	other	0
+vp23	492	Picture	VAS	923925	0	1	1167	1	0	next	false_alarm	559
+vp23	492	Response	1	924895	970	0
+vp23	493	Picture	VAS	925092	0	1	1166	1	0	next	other	0
+vp23	494	Picture	VAS	926258	0	1	1167	1	0	next	other	0
+vp23	495	Picture	VAS	927425	0	1	1164	3	0	next	other	0
+vp23	496	Picture	VAS	928589	0	3	1169	3	0	next	other	0
+vp23	497	Picture	VAS	929758	0	1	1167	1	0	next	other	0
+vp23	498	Picture	VAS	930925	0	1	1166	1	0	next	other	0
+vp23	499	Picture	VAS	932091	0	1	1167	1	0	next	other	0
+vp23	500	Picture	VAS	933258	0	1	1167	1	0	next	other	0
+vp23	501	Picture	VAS	934424	0	1	1167	1	0	next	other	0
+vp23	502	Picture	VAS	935591	0	1	1167	1	0	next	other	0
+vp23	503	Picture	VAS	936757	0	1	1167	1	0	next	other	0
+vp23	504	Picture	VAS	937924	0	1	1166	1	0	next	other	0
+vp23	504	Response	3	939057	1133	1
+vp23	505	Picture	VAS	939090	0	1	1167	1	0	next	other	0
+vp23	506	Picture	VAS	940257	0	1	1167	1	0	next	other	0
+vp23	507	Picture	Jitter	941424	0	1	15165	1	0	next	other	0
+vp23	508	Picture	instruct	956589	0	1	21165	1	0	next	other	0
+vp23	508	Manual	shock delivered	976590	20001	NA
+vp23	508	Manual	shock delivered	976710	20121	NA
+vp23	508	Manual	shock delivered	976830	20241	NA
+vp23	508	Manual	shock delivered	976951	20362	NA
+vp23	508	Manual	shock delivered	977071	20482	NA
+vp23	508	Manual	shock delivered	977191	20602	NA
+vp23	508	Manual	shock delivered	977311	20722	NA
+vp23	508	Manual	shock delivered	977432	20843	NA
+vp23	509	Picture	VAS	977754	0	1	1166	1	0	next	other	0
+vp23	510	Picture	VAS	978921	0	1	1167	1	0	next	other	0
+vp23	511	Picture	VAS	980087	0	1	1167	1	0	next	other	0
+vp23	512	Picture	VAS	981254	0	1	1167	1	0	next	other	0
+vp23	513	Picture	VAS	982420	0	1	1167	1	0	next	other	0
+vp23	514	Picture	VAS	983587	0	1	1167	1	0	next	other	0
+vp23	515	Picture	VAS	984754	0	1	1167	1	0	next	other	0
+vp23	516	Picture	VAS	985920	0	1	1167	1	0	next	other	0
+vp23	517	Picture	VAS	987087	0	1	1167	1	0	next	other	0
+vp23	518	Picture	VAS	988253	0	1	1167	1	0	next	other	0
+vp23	519	Picture	VAS	989420	0	1	1167	1	0	next	other	0
+vp23	520	Picture	VAS	990586	0	1	1166	1	0	next	other	0
+vp23	521	Picture	VAS	991753	0	1	1167	1	0	next	other	0
+vp23	522	Picture	VAS	992920	0	1	1167	1	0	next	other	0
+vp23	523	Picture	VAS	994086	0	1	1167	1	0	next	other	0
+vp23	524	Picture	VAS	995253	0	1	1167	1	0	next	other	0
+vp23	525	Picture	VAS	996419	0	1	1167	1	0	next	other	0
+vp23	526	Picture	VAS	997586	0	1	1167	1	0	next	other	0
+vp23	527	Picture	VAS	998752	0	1	1167	1	0	next	other	0
+vp23	528	Picture	VAS	999919	0	1	1167	1	0	next	other	0
+vp23	529	Picture	VAS	1001086	0	1	1167	1	0	next	other	0
+vp23	530	Picture	VAS	1002252	0	1	1167	1	0	next	other	0
+vp23	531	Picture	VAS	1003419	0	1	1167	1	0	next	other	0
+vp23	532	Picture	VAS	1004585	0	1	1166	1	0	next	other	0
+vp23	533	Picture	VAS	1005752	0	1	1167	1	0	next	other	0
+vp23	534	Picture	VAS	1006918	0	1	1167	1	0	next	other	0
+vp23	535	Picture	VAS	1008085	0	1	1166	1	0	next	false_alarm	612
+vp23	535	Response	2	1008330	245	1
+vp23	536	Picture	VAS	1009251	0	1	1167	1	0	next	other	0
+vp23	537	Picture	VAS	1010418	0	1	1167	1	0	next	other	0
+vp23	538	Picture	VAS	1011585	0	1	1167	1	0	next	other	0
+vp23	539	Picture	VAS	1012751	0	1	1166	1	0	next	other	0
+vp23	540	Picture	VAS	1013918	0	1	1167	1	0	next	other	0
+vp23	541	Picture	VAS	1015084	0	1	1166	1	0	next	other	0
+vp23	542	Picture	VAS	1016251	0	1	1167	1	0	next	other	0
+vp23	543	Picture	VAS	1017417	0	1	1167	1	0	next	other	0
+vp23	544	Picture	VAS	1018584	0	1	1167	1	0	next	other	0
+vp23	545	Picture	VAS	1019751	0	1	1166	1	0	next	other	0
+vp23	546	Picture	VAS	1020917	0	1	1167	1	0	next	other	0
+vp23	547	Picture	VAS	1022084	0	1	1167	1	0	next	other	0
+vp23	548	Picture	VAS	1023250	0	1	1166	1	0	next	other	0
+vp23	549	Picture	VAS	1024417	0	1	1167	1	0	next	other	0
+vp23	550	Picture	VAS	1025584	0	1	1166	1	0	next	other	0
+vp23	551	Picture	VAS	1026750	0	1	1167	1	0	next	other	0
+vp23	552	Picture	VAS	1027917	0	1	1167	1	0	next	other	0
+vp23	553	Picture	VAS	1029083	0	1	1167	1	0	next	other	0
+vp23	554	Picture	VAS	1030250	0	1	1167	1	0	next	other	0
+vp23	555	Picture	VAS	1031416	0	1	1167	1	0	next	other	0
+vp23	556	Picture	VAS	1032583	0	1	1167	1	0	next	other	0
+vp23	557	Picture	VAS	1033750	0	1	1167	1	0	next	other	0
+vp23	558	Picture	VAS	1034916	0	1	1167	1	0	next	other	0
+vp23	559	Picture	VAS	1036083	0	1	1167	1	0	next	other	0
+vp23	560	Picture	VAS	1037249	0	1	1167	1	0	next	other	0
+vp23	561	Picture	VAS	1038416	0	1	1166	1	0	next	other	0
+vp23	562	Picture	VAS	1039582	0	1	1164	3	0	next	other	0
+vp23	563	Picture	VAS	1040747	0	3	1169	3	0	next	other	0
+vp23	564	Picture	VAS	1041916	0	1	1167	1	0	next	other	0
+vp23	565	Picture	VAS	1043082	0	1	1166	1	0	next	other	0
+vp23	566	Picture	VAS	1044249	0	1	1167	1	0	next	other	0
+vp23	567	Picture	VAS	1045415	0	1	1167	1	0	next	other	0
+vp23	568	Picture	VAS	1046582	0	1	1166	1	0	next	other	0
+vp23	569	Picture	VAS	1047748	0	1	1167	1	0	next	other	0
+vp23	570	Picture	VAS	1048915	0	1	1167	1	0	next	other	0
+vp23	571	Picture	VAS	1050082	0	1	1166	1	0	next	other	0
+vp23	572	Picture	VAS	1051248	0	1	1167	1	0	next	other	0
+vp23	573	Picture	VAS	1052415	0	1	1167	1	0	next	other	0
+vp23	574	Picture	VAS	1053581	0	1	1167	1	0	next	other	0
+vp23	575	Picture	VAS	1054748	0	1	1167	1	0	next	other	0
+vp23	576	Picture	VAS	1055914	0	1	1166	1	0	next	other	0
+vp23	577	Picture	VAS	1057081	0	1	1167	1	0	next	other	0
+vp23	578	Picture	VAS	1058248	0	1	1167	1	0	next	other	0
+vp23	579	Picture	VAS	1059414	0	1	1167	1	0	next	other	0
+vp23	580	Picture	VAS	1060581	0	1	1167	1	0	next	other	0
+vp23	581	Picture	VAS	1061747	0	1	1166	1	0	next	other	0
+vp23	582	Picture	VAS	1062914	0	1	1167	1	0	next	other	0
+vp23	583	Picture	VAS	1064080	0	1	1167	1	0	next	other	0
+vp23	584	Picture	VAS	1065247	0	1	1167	1	0	next	other	0
+vp23	585	Picture	VAS	1066414	0	1	1166	1	0	next	false_alarm	663
+vp23	585	Response	3	1066701	287	2
+vp23	586	Picture	VAS	1067580	0	1	1167	1	0	next	other	0
+vp23	587	Picture	Jitter	1068747	0	1	10332	1	0	next	other	0
+vp23	588	Picture	instruct	1079079	0	1	20498	1	0	next	other	0
+vp23	588	Manual	shock delivered	1099080	20001	NA
+vp23	588	Manual	shock delivered	1099200	20121	NA
+vp23	589	Picture	VAS	1099577	0	1	1167	1	0	next	other	0
+vp23	590	Picture	VAS	1100744	0	1	1167	1	0	next	other	0
+vp23	591	Picture	VAS	1101911	0	1	1167	1	0	next	other	0
+vp23	592	Picture	VAS	1103077	0	1	1167	1	0	next	other	0
+vp23	593	Picture	VAS	1104244	0	1	1167	1	0	next	other	0
+vp23	594	Picture	VAS	1105410	0	1	1167	1	0	next	other	0
+vp23	595	Picture	VAS	1106577	0	1	1167	1	0	next	other	0
+vp23	596	Picture	VAS	1107743	0	1	1167	1	0	next	other	0
+vp23	597	Picture	VAS	1108910	0	1	1166	1	0	next	other	0
+vp23	598	Picture	VAS	1110077	0	1	1167	1	0	next	other	0
+vp23	599	Picture	VAS	1111243	0	1	1166	1	0	next	other	0
+vp23	600	Picture	VAS	1112410	0	1	1167	1	0	next	other	0
+vp23	601	Picture	VAS	1113576	0	1	1167	1	0	next	other	0
+vp23	602	Picture	VAS	1114743	0	1	1167	1	0	next	other	0
+vp23	603	Picture	VAS	1115909	0	1	1167	1	0	next	other	0
+vp23	604	Picture	VAS	1117076	0	1	1167	1	0	next	other	0
+vp23	605	Picture	VAS	1118243	0	1	1167	1	0	next	other	0
+vp23	606	Picture	VAS	1119409	0	1	1166	1	0	next	other	0
+vp23	607	Picture	VAS	1120576	0	1	1167	1	0	next	other	0
+vp23	608	Picture	VAS	1121742	0	1	1166	1	0	next	other	0
+vp23	609	Picture	VAS	1122909	0	1	1167	1	0	next	other	0
+vp23	610	Picture	VAS	1124075	0	1	1167	1	0	next	other	0
+vp23	611	Picture	VAS	1125242	0	1	1166	1	0	next	other	0
+vp23	612	Picture	VAS	1126409	0	1	1167	1	0	next	other	0
+vp23	613	Picture	VAS	1127575	0	1	1166	1	0	next	other	0
+vp23	614	Picture	VAS	1128742	0	1	1167	1	0	next	other	0
+vp23	615	Picture	VAS	1129908	0	1	1166	1	0	next	other	0
+vp23	616	Picture	VAS	1131075	0	1	1167	1	0	next	other	0
+vp23	617	Picture	VAS	1132242	0	1	1167	1	0	next	other	0
+vp23	618	Picture	VAS	1133408	0	1	1167	1	0	next	other	0
+vp23	619	Picture	VAS	1134575	0	1	1167	1	0	next	other	0
+vp23	620	Picture	VAS	1135741	0	1	1167	1	0	next	other	0
+vp23	621	Picture	VAS	1136908	0	1	1167	1	0	next	false_alarm	702
+vp23	621	Response	1	1137132	224	1
+vp23	622	Picture	VAS	1138074	0	1	1167	1	0	next	false_alarm	704
+vp23	622	Response	1	1138783	709	0
+vp23	623	Picture	VAS	1139241	0	1	1166	1	0	next	false_alarm	706
+vp23	623	Response	1	1140203	962	1
+vp23	624	Picture	VAS	1140407	0	1	1167	1	0	next	other	0
+vp23	625	Picture	VAS	1141574	0	1	1167	1	0	next	other	0
+vp23	626	Picture	VAS	1142741	0	1	1167	1	0	next	other	0
+vp23	627	Picture	VAS	1143907	0	1	1167	1	0	next	other	0
+vp23	628	Picture	VAS	1145074	0	1	1166	1	0	next	other	0
+vp23	629	Picture	VAS	1146240	0	1	1167	1	0	next	other	0
+vp23	630	Picture	VAS	1147407	0	1	1167	1	0	next	other	0
+vp23	631	Picture	VAS	1148574	0	1	1166	1	0	next	other	0
+vp23	632	Picture	VAS	1149740	0	1	1167	1	0	next	other	0
+vp23	633	Picture	VAS	1150907	0	1	1166	1	0	next	other	0
+vp23	634	Picture	VAS	1152073	0	1	1167	1	0	next	other	0
+vp23	634	Response	3	1153216	1143	1
+vp23	635	Picture	VAS	1153240	0	1	1167	1	0	next	other	0
+vp23	636	Picture	VAS	1154406	0	1	1167	1	0	next	other	0
+vp23	637	Picture	Jitter	1155573	0	1	5166	1	0	next	other	0
+vp23	638	Picture	instruct	1160739	0	1	20665	1	0	next	other	0
+vp23	638	Manual	shock delivered	1180740	20001	NA
+vp23	638	Manual	shock delivered	1180860	20121	NA
+vp23	638	Manual	shock delivered	1180981	20241	NA
+vp23	638	Manual	shock delivered	1181101	20362	NA
+vp23	639	Picture	VAS	1181404	0	1	1167	1	0	next	other	0
+vp23	640	Picture	VAS	1182571	0	1	1167	1	0	next	other	0
+vp23	641	Picture	VAS	1183737	0	1	1167	1	0	next	other	0
+vp23	642	Picture	VAS	1184904	0	1	1167	1	0	next	other	0
+vp23	643	Picture	VAS	1186070	0	1	1167	1	0	next	other	0
+vp23	644	Picture	VAS	1187237	0	1	1167	1	0	next	other	0
+vp23	645	Picture	VAS	1188404	0	1	1166	1	0	next	other	0
+vp23	646	Picture	VAS	1189570	0	1	1167	1	0	next	other	0
+vp23	647	Picture	VAS	1190737	0	1	1167	1	0	next	other	0
+vp23	648	Picture	VAS	1191903	0	1	1167	1	0	next	other	0
+vp23	649	Picture	VAS	1193070	0	1	1167	1	0	next	other	0
+vp23	650	Picture	VAS	1194236	0	1	1167	1	0	next	other	0
+vp23	651	Picture	VAS	1195403	0	1	1167	1	0	next	other	0
+vp23	652	Picture	VAS	1196570	0	1	1167	1	0	next	other	0
+vp23	653	Picture	VAS	1197736	0	1	1167	1	0	next	other	0
+vp23	654	Picture	VAS	1198903	0	1	1167	1	0	next	other	0
+vp23	655	Picture	VAS	1200069	0	1	1167	1	0	next	other	0
+vp23	656	Picture	VAS	1201236	0	1	1166	1	0	next	other	0
+vp23	657	Picture	VAS	1202402	0	1	1167	1	0	next	other	0
+vp23	658	Picture	VAS	1203569	0	1	1167	1	0	next	other	0
+vp23	659	Picture	VAS	1204736	0	1	1167	1	0	next	other	0
+vp23	660	Picture	VAS	1205902	0	1	1166	1	0	next	other	0
+vp23	661	Picture	VAS	1207069	0	1	1167	1	0	next	other	0
+vp23	662	Picture	VAS	1208235	0	1	1167	1	0	next	other	0
+vp23	663	Picture	VAS	1209402	0	1	1167	1	0	next	other	0
+vp23	664	Picture	VAS	1210568	0	1	1167	1	0	next	other	0
+vp23	665	Picture	VAS	1211735	0	1	1167	1	0	next	other	0
+vp23	666	Picture	VAS	1212902	0	1	1167	1	0	next	other	0
+vp23	667	Picture	VAS	1214068	0	1	1167	1	0	next	other	0
+vp23	668	Picture	VAS	1215235	0	1	1167	1	0	next	other	0
+vp23	669	Picture	VAS	1216401	0	1	1166	1	0	next	other	0
+vp23	670	Picture	VAS	1217568	0	1	1167	1	0	next	other	0
+vp23	670	Response	1	1218571	1003	1
+vp23	671	Picture	VAS	1218734	0	1	1167	1	0	next	other	0
+vp23	672	Picture	VAS	1219901	0	1	1167	1	0	next	false_alarm	762
+vp23	672	Response	1	1220011	110	0
+vp23	673	Picture	VAS	1221068	0	1	1167	1	0	next	other	0
+vp23	674	Picture	VAS	1222234	0	1	1166	1	0	next	other	0
+vp23	675	Picture	VAS	1223401	0	1	1167	1	0	next	other	0
+vp23	676	Picture	VAS	1224567	0	1	1167	1	0	next	other	0
+vp23	677	Picture	VAS	1225734	0	1	1167	1	0	next	other	0
+vp23	678	Picture	VAS	1226901	0	1	1167	1	0	next	false_alarm	769
+vp23	678	Response	3	1227026	125	0
+vp23	679	Picture	VAS	1228067	0	1	1167	1	0	next	other	0
+vp23	680	Picture	Jitter	1229234	0	1	5166	1	0	next	other	0
+vp23	681	Picture	instruct	1234400	0	1	20832	1	0	next	other	0
+vp23	681	Manual	shock delivered	1254401	20001	NA
+vp23	681	Manual	shock delivered	1254521	20121	NA
+vp23	681	Manual	shock delivered	1254641	20242	NA
+vp23	681	Manual	shock delivered	1254762	20362	NA
+vp23	681	Manual	shock delivered	1254882	20482	NA
+vp23	682	Picture	VAS	1255231	0	1	1167	1	0	next	other	0
+vp23	683	Picture	VAS	1256398	0	1	1167	1	0	next	other	0
+vp23	684	Picture	VAS	1257565	0	1	1100	68	0	next	other	0
+vp23	685	Picture	VAS	1258664	0	68	1233	68	0	next	other	0
+vp23	686	Picture	VAS	1259898	0	1	1167	1	0	next	other	0
+vp23	687	Picture	VAS	1261064	0	1	1166	1	0	next	other	0
+vp23	688	Picture	VAS	1262231	0	1	1167	1	0	next	other	0
+vp23	689	Picture	VAS	1263397	0	1	1167	1	0	next	other	0
+vp23	690	Picture	VAS	1264564	0	1	1167	1	0	next	other	0
+vp23	691	Picture	VAS	1265731	0	1	1167	1	0	next	other	0
+vp23	692	Picture	VAS	1266897	0	1	1167	1	0	next	other	0
+vp23	693	Picture	VAS	1268064	0	1	1167	1	0	next	other	0
+vp23	694	Picture	VAS	1269230	0	1	1166	1	0	next	other	0
+vp23	695	Picture	VAS	1270397	0	1	1167	1	0	next	other	0
+vp23	696	Picture	VAS	1271563	0	1	1167	1	0	next	other	0
+vp23	697	Picture	VAS	1272730	0	1	1167	1	0	next	other	0
+vp23	698	Picture	VAS	1273897	0	1	1167	1	0	next	other	0
+vp23	699	Picture	VAS	1275063	0	1	1167	1	0	next	other	0
+vp23	700	Picture	VAS	1276230	0	1	1166	1	0	next	other	0
+vp23	701	Picture	VAS	1277396	0	1	1167	1	0	next	other	0
+vp23	702	Picture	VAS	1278563	0	1	1167	1	0	next	other	0
+vp23	703	Picture	VAS	1279729	0	1	1167	1	0	next	other	0
+vp23	704	Picture	VAS	1280896	0	1	1167	1	0	next	other	0
+vp23	705	Picture	VAS	1282063	0	1	1166	1	0	next	other	0
+vp23	706	Picture	VAS	1283229	0	1	1167	1	0	next	other	0
+vp23	707	Picture	VAS	1284396	0	1	1167	1	0	next	other	0
+vp23	708	Picture	VAS	1285562	0	1	1167	1	0	next	other	0
+vp23	709	Picture	VAS	1286729	0	1	1167	1	0	next	other	0
+vp23	710	Picture	VAS	1287896	0	1	1166	1	0	next	other	0
+vp23	711	Picture	VAS	1289062	0	1	1167	1	0	next	other	0
+vp23	712	Picture	VAS	1290229	0	1	1167	1	0	next	other	0
+vp23	713	Picture	VAS	1291395	0	1	1100	67	0	next	other	0
+vp23	714	Picture	VAS	1292495	0	67	1233	67	0	next	other	0
+vp23	715	Picture	VAS	1293728	0	1	1167	1	0	next	other	0
+vp23	716	Picture	VAS	1294895	0	1	1167	1	0	next	false_alarm	813
+vp23	716	Response	1	1295027	132	0
+vp23	717	Picture	VAS	1296062	0	1	1167	1	0	next	other	0
+vp23	718	Picture	VAS	1297228	0	1	1167	1	0	next	other	0
+vp23	719	Picture	VAS	1298395	0	1	1167	1	0	next	other	0
+vp23	720	Picture	VAS	1299561	0	1	1100	68	0	next	other	0
+vp23	721	Picture	VAS	1300661	0	67	1233	68	0	next	other	0
+vp23	722	Picture	VAS	1301894	0	1	1167	1	0	next	other	0
+vp23	723	Picture	VAS	1303061	0	1	1167	1	0	next	other	0
+vp23	724	Picture	VAS	1304227	0	1	1167	1	0	next	other	0
+vp23	725	Picture	VAS	1305394	0	1	1166	1	0	next	other	0
+vp23	726	Picture	VAS	1306560	0	1	1167	1	0	next	other	0
+vp23	727	Picture	VAS	1307727	0	1	1166	1	0	next	other	0
+vp23	728	Picture	VAS	1308894	0	1	1167	1	0	next	other	0
+vp23	729	Picture	VAS	1310060	0	1	1167	1	0	next	other	0
+vp23	730	Picture	VAS	1311227	0	1	1167	1	0	next	other	0
+vp23	731	Picture	VAS	1312394	0	1	1166	1	0	next	other	0
+vp23	732	Picture	VAS	1313560	0	1	1167	1	0	next	other	0
+vp23	733	Picture	VAS	1314727	0	1	1167	1	0	next	other	0
+vp23	734	Picture	VAS	1315893	0	1	1167	1	0	next	other	0
+vp23	735	Picture	VAS	1317060	0	1	1167	1	0	next	other	0
+vp23	736	Picture	VAS	1318226	0	1	1167	1	0	next	other	0
+vp23	737	Picture	VAS	1319393	0	1	1167	1	0	next	other	0
+vp23	738	Picture	VAS	1320560	0	1	1167	1	0	next	other	0
+vp23	739	Picture	VAS	1321726	0	1	1167	1	0	next	other	0
+vp23	740	Picture	VAS	1322893	0	1	1167	1	0	next	other	0
+vp23	741	Picture	VAS	1324059	0	1	1167	1	0	next	other	0
+vp23	742	Picture	VAS	1325226	0	1	1167	1	0	next	other	0
+vp23	743	Picture	VAS	1326392	0	1	1167	1	0	next	other	0
+vp23	744	Picture	VAS	1327559	0	1	1167	1	0	next	other	0
+vp23	745	Picture	VAS	1328726	0	1	1167	1	0	next	other	0
+vp23	746	Picture	VAS	1329892	0	1	1167	1	0	next	other	0
+vp23	747	Picture	VAS	1331059	0	1	1167	1	0	next	false_alarm	845
+vp23	747	Response	3	1331516	457	0
+vp23	748	Picture	VAS	1332225	0	1	1165	2	0	next	other	0
+vp23	749	Picture	Jitter	1333390	0	2	5168	2	0	next	other	0
+vp23	750	Picture	instruct	1338558	0	1	20832	1	0	next	other	0
+vp23	750	Manual	shock delivered	1358559	20001	NA
+vp23	750	Manual	shock delivered	1358679	20121	NA
+vp23	750	Manual	shock delivered	1358799	20241	NA
+vp23	750	Manual	shock delivered	1358920	20362	NA
+vp23	750	Manual	shock delivered	1359040	20482	NA
+vp23	750	Manual	shock delivered	1359160	20602	NA
+vp23	751	Picture	VAS	1359390	0	1	1167	1	0	next	other	0
+vp23	752	Picture	VAS	1360556	0	1	1166	1	0	next	other	0
+vp23	753	Picture	VAS	1361723	0	1	1167	1	0	next	other	0
+vp23	754	Picture	VAS	1362889	0	1	1167	1	0	next	other	0
+vp23	755	Picture	VAS	1364056	0	1	1167	1	0	next	other	0
+vp23	756	Picture	VAS	1365223	0	1	1167	1	0	next	other	0
+vp23	757	Picture	VAS	1366389	0	1	1167	1	0	next	other	0
+vp23	758	Picture	VAS	1367556	0	1	1088	79	0	next	other	0
+vp23	759	Picture	VAS	1368644	0	79	1245	79	0	next	other	0
+vp23	760	Picture	VAS	1369889	0	1	1167	1	0	next	other	0
+vp23	761	Picture	VAS	1371055	0	1	1167	1	0	next	other	0
+vp23	762	Picture	VAS	1372222	0	1	1167	1	0	next	other	0
+vp23	763	Picture	VAS	1373389	0	1	1167	1	0	next	other	0
+vp23	764	Picture	VAS	1374555	0	1	1167	1	0	next	other	0
+vp23	765	Picture	VAS	1375722	0	1	1167	1	0	next	other	0
+vp23	766	Picture	VAS	1376888	0	1	1166	1	0	next	other	0
+vp23	767	Picture	VAS	1378055	0	1	1167	1	0	next	other	0
+vp23	768	Picture	VAS	1379221	0	1	1166	1	0	next	other	0
+vp23	769	Picture	VAS	1380388	0	1	1167	1	0	next	other	0
+vp23	770	Picture	VAS	1381555	0	1	1167	1	0	next	other	0
+vp23	771	Picture	VAS	1382721	0	1	1167	1	0	next	other	0
+vp23	772	Picture	VAS	1383888	0	1	1167	1	0	next	other	0
+vp23	773	Picture	VAS	1385054	0	1	1167	1	0	next	other	0
+vp23	774	Picture	VAS	1386221	0	1	1167	1	0	next	other	0
+vp23	775	Picture	VAS	1387387	0	1	1167	1	0	next	other	0
+vp23	776	Picture	VAS	1388554	0	1	1166	1	0	next	false_alarm	881
+vp23	776	Response	2	1389297	743	0
+vp23	777	Picture	VAS	1389720	0	1	1167	1	0	next	other	0
+vp23	778	Picture	VAS	1390887	0	1	1166	1	0	next	other	0
+vp23	779	Picture	VAS	1392054	0	1	1167	1	0	next	other	0
+vp23	780	Picture	VAS	1393220	0	1	1167	1	0	next	other	0
+vp23	781	Picture	VAS	1394387	0	1	1167	1	0	next	other	0
+vp23	782	Picture	VAS	1395553	0	1	1167	1	0	next	other	0
+vp23	783	Picture	VAS	1396720	0	1	1167	1	0	next	other	0
+vp23	784	Picture	VAS	1397887	0	1	1167	1	0	next	other	0
+vp23	785	Picture	VAS	1399053	0	1	1167	1	0	next	other	0
+vp23	786	Picture	VAS	1400220	0	1	1149	18	0	next	other	0
+vp23	787	Picture	VAS	1401369	0	18	1184	18	0	next	other	0
+vp23	788	Picture	VAS	1402553	0	1	1167	1	0	next	other	0
+vp23	789	Picture	VAS	1403719	0	1	1167	1	0	next	other	0
+vp23	790	Picture	VAS	1404886	0	1	1167	1	0	next	other	0
+vp23	791	Picture	VAS	1406053	0	1	1167	1	0	next	other	0
+vp23	792	Picture	VAS	1407219	0	1	1167	1	0	next	other	0
+vp23	793	Picture	VAS	1408386	0	1	1167	1	0	next	other	0
+vp23	794	Picture	VAS	1409552	0	1	1167	1	0	next	other	0
+vp23	795	Picture	VAS	1410719	0	1	1166	1	0	next	other	0
+vp23	796	Picture	VAS	1411885	0	1	1167	1	0	next	other	0
+vp23	797	Picture	VAS	1413052	0	1	1167	1	0	next	other	0
+vp23	798	Picture	VAS	1414219	0	1	1166	1	0	next	other	0
+vp23	799	Picture	VAS	1415385	0	1	1167	1	0	next	other	0
+vp23	800	Picture	VAS	1416552	0	1	1167	1	0	next	other	0
+vp23	801	Picture	VAS	1417718	0	1	1167	1	0	next	other	0
+vp23	802	Picture	VAS	1418885	0	1	1166	1	0	next	other	0
+vp23	803	Picture	VAS	1420051	0	1	1167	1	0	next	other	0
+vp23	804	Picture	VAS	1421218	0	1	1167	1	0	next	other	0
+vp23	805	Picture	VAS	1422385	0	1	1167	1	0	next	other	0
+vp23	806	Picture	VAS	1423551	0	1	1167	1	0	next	other	0
+vp23	807	Picture	VAS	1424718	0	1	1167	1	0	next	other	0
+vp23	808	Picture	VAS	1425884	0	1	1167	1	0	next	other	0
+vp23	809	Picture	VAS	1427051	0	1	1166	1	0	next	other	0
+vp23	810	Picture	VAS	1428217	0	1	1167	1	0	next	other	0
+vp23	811	Picture	VAS	1429384	0	1	1167	1	0	next	other	0
+vp23	812	Picture	VAS	1430551	0	1	1167	1	0	next	other	0
+vp23	813	Picture	VAS	1431717	0	1	1166	1	0	next	other	0
+vp23	814	Picture	VAS	1432884	0	1	1167	1	0	next	other	0
+vp23	815	Picture	VAS	1434050	0	1	1167	1	0	next	other	0
+vp23	816	Picture	VAS	1435217	0	1	1167	1	0	next	false_alarm	922
+vp23	816	Response	3	1436177	960	1
+vp23	817	Picture	VAS	1436383	0	1	1333	1	0	next	other	0
+vp23	818	Picture	present_text	1437717	0	1	12164	2	0	next	false_alarm	925
+vp23	818	Response	3	1449348	11631	4
+vp23	819	Picture	basic hist	1449881	0	2	72344	2	0	next	false_alarm	927
+vp23	819	Response	3	1501172	51292	2

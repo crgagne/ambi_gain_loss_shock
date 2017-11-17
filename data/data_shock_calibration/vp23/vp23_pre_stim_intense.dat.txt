@@ -1,0 +1,15 @@
+Phase	trial_number	num_shock_del	subjective_pain
+Continous	2	4	4
+Continous	3	5	5
+Continous	4	2	4
+Continous	5	3	3
+Continous	6	1	2
+Continous	7	4	3
+Continous	8	7	4
+Continous	9	6	5
+Continous	10	8	7
+Continous	11	2	3
+Continous	12	4	3
+Continous	13	5	5
+Continous	14	6	6
+Maximum numshock =	80	 step =	7

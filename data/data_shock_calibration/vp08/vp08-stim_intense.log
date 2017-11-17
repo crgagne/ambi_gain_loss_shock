@@ -1,0 +1,36 @@
+Scenario - subjective stimulus intensity
+Logfile written - 09/27/2017 14:35:19
+
+Subject	Trial	Event Type	Code	Time	TTime	Uncertainty	Duration	Uncertainty	ReqTime	ReqDur	Stim Type	Pair Index
+
+vp08	1	Picture	present_text	-9833	0	1	7332	2	0	next	false_alarm	2
+vp08	1	Response	3	-2617	7216	1
+vp08	2	Picture	VAS	-2501	0	1	1167	2	0	next	other	0
+vp08	3	Picture	VAS	-1334	0	1	1166	3	0	next	other	0
+vp08	4	Picture	VAS	-168	0	2	1166	3	0	next	other	0
+vp08	5	Picture	VAS	998	0	1	1167	2	0	next	other	0
+vp08	6	Picture	VAS	2165	0	1	1166	2	0	next	other	0
+vp08	7	Picture	VAS	3331	0	1	1167	2	0	next	other	0
+vp08	8	Picture	VAS	4498	0	1	1166	2	0	next	other	0
+vp08	9	Picture	VAS	5664	0	1	1167	2	0	next	other	0
+vp08	10	Picture	VAS	6831	0	1	1166	2	0	next	other	0
+vp08	11	Picture	VAS	7997	0	1	1167	2	0	next	other	0
+vp08	12	Picture	VAS	9164	0	1	1166	2	0	next	other	0
+vp08	13	Picture	VAS	10330	0	1	1167	2	0	next	other	0
+vp08	14	Picture	VAS	11497	0	1	1166	2	0	next	other	0
+vp08	15	Picture	VAS	12663	0	1	1167	2	0	next	other	0
+vp08	16	Picture	VAS	13830	0	1	1166	2	0	next	other	0
+vp08	17	Picture	VAS	14996	0	1	1167	2	0	next	other	0
+vp08	18	Picture	VAS	16163	0	1	1166	2	0	next	false_alarm	20
+vp08	18	Response	3	17142	979	1
+vp08	19	Picture	VAS	17329	0	1	1167	2	0	next	other	0
+vp08	20	Picture	present_text	18496	0	1	16164	3	0	next	false_alarm	23
+vp08	20	Response	3	34501	16005	1
+vp08	20	Response	4	43140	24644	1
+vp08	20	Response	3	46500	28004	1
+vp08	20	Text Input	1	46500	28004	1
+vp08	21	Picture	Jitter	46659	0	1	15165	2	0	next	other	0
+vp08	22	Picture	instruct	61824	0	1	20164	2	0	next	other	0
+vp08	22	Manual	shock delivered	81824	20000
+vp08	23	Picture	present_text	81988	0	1	145993	2	0	next	other	0
+vp08	23	Quit		225454	143466
