@@ -8,7 +8,10 @@ import scipy.stats as stats
 from IPython.core.debugger import Tracer
 from scipy.optimize import minimize
 import scipy.stats as stats
-
+#for graphics
+import matplotlib.pyplot as plt
+import matplotlib
+import seaborn as sns
 
 def preprocess_model(X,y,zscore=True,remove_1back=False):
 
@@ -124,6 +127,7 @@ def fit_model(y,X,modelname,cross_validate=True,MID=None,zscore=True):
     out['pred_acc']=pred_acc
     out['pred_acc_cv']=pred_acc_cv
     out['pred_acc_cv_mean']=pred_acc_cv.mean()
+
 
     return(out)
 
@@ -243,8 +247,8 @@ def fit_model_split_amb_unamb_gain_loss(trial_table,cross_validate=False,combine
     if 'prob_total' in params:
         X['prob_total_'+task]=(tt['prob_x_ambig_bayes']+tt['prob_x_unambig']).as_matrix()
 
-    if 'sqrt_prop_revealed' in params:
-        X['sqrt_prop_revealed_'+task]=(tt['ambiguityLevel']).as_matrix()
+    if 'ambiguityLevel' in params:
+        X['ambiguityLevel_'+task]=(tt['ambiguityLevel']).as_matrix()
 
     # posterior alpha, beta
     alpha = tt['revealed_x_ambig'].as_matrix().astype('float')+1
@@ -266,45 +270,45 @@ def fit_model_split_amb_unamb_gain_loss(trial_table,cross_validate=False,combine
 
     ### Interaction ####
 
-    if 'inter_prob_diff_sqrt_prop_revealed' in params:
-            prop_revealed = X['sqrt_prop_revealed_'+task].copy()
+    if 'inter_prob_diff_ambiguityLevel' in params:
+            prop_revealed = X['ambiguityLevel_'+task].copy()
             prob_diff = X['prob_diff_amb_'+task].copy()
             # mean centering (liklihood stays the same, but interactions are easier to interpret)
             #prop_revealed  = (prop_revealed  -  prop_revealed.mean())/prop_revealed.std() # mean center - so the prob is relative to 0.5 # / prob_unambig .std(ddof=0) # z-score -
             #prob_diff  = (prob_diff  -  prob_diff.mean())/prob_diff.std() # mean center - so the prob is relative to 0.5 # / prob_unambig .std(ddof=0) # z-score -
-            X['inter_prob_diff_sqrt_prop_revealed'] = (prop_revealed*prob_diff).as_matrix()
+            X['inter_prob_diff_ambiguityLevel'] = (prop_revealed*prob_diff).as_matrix()
 
-    if 'inter_mag_diff_sqrt_prop_revealed' in params:
-            prop_revealed = X['sqrt_prop_revealed_'+task].copy()
+    if 'inter_mag_diff_ambiguityLevel' in params:
+            prop_revealed = X['ambiguityLevel_'+task].copy()
             mag_diff = X['mag_diff_amb_'+task].copy()
-            X['inter_mag_diff_sqrt_prop_revealed'] = (prop_revealed*mag_diff).as_matrix()
+            X['inter_mag_diff_ambiguityLevel'] = (prop_revealed*mag_diff).as_matrix()
 
-    if 'inter_prob_total_sqrt_prop_revealed' in params:
-            prop_revealed = X['sqrt_prop_revealed_'+task].copy()
+    if 'inter_prob_total_ambiguityLevel' in params:
+            prop_revealed = X['ambiguityLevel_'+task].copy()
             prob_total = X['prob_total_'+task].copy()
-            X['inter_prob_total_sqrt_prop_revealed'] = (prop_revealed*prob_total).as_matrix()
+            X['inter_prob_total_ambiguityLevel'] = (prop_revealed*prob_total).as_matrix()
 
-    if 'inter_mag_total_sqrt_prop_revealed' in params:
-            prop_revealed = X['sqrt_prop_revealed_'+task].copy()
+    if 'inter_mag_total_ambiguityLevel' in params:
+            prop_revealed = X['ambiguityLevel_'+task].copy()
             X['mag_total_'+task]=tt['mag_ambig']+tt['mag_unambig']
             mag_total = X['mag_total_'+task].copy()
-            X['inter_mag_total_sqrt_prop_revealed'] = (prop_revealed*mag_total).as_matrix()
+            X['inter_mag_total_ambiguityLevel'] = (prop_revealed*mag_total).as_matrix()
 
-    if 'inter_prob_total_prob_diff_sqrt_prop_revealed' in params:
-            prop_revealed = X['sqrt_prop_revealed_'+task].copy()
+    if 'inter_prob_total_prob_diff_ambiguityLevel' in params:
+            prop_revealed = X['ambiguityLevel_'+task].copy()
             prob_total = X['prob_total_'+task].copy()
             prob_diff = X['prob_diff_amb_'+task].copy()
-            X['inter_prob_total_prob_diff_sqrt_prop_revealed'] = (prop_revealed*prob_total*prob_diff).as_matrix()
+            X['inter_prob_total_prob_diff_ambiguityLevel'] = (prop_revealed*prob_total*prob_diff).as_matrix()
 
-    if 'inter_prob_ambig_sqrt_prop_revealed' in params:
-            prop_revealed = X['sqrt_prop_revealed_'+task].copy()
+    if 'inter_prob_ambig_ambiguityLevel' in params:
+            prop_revealed = X['ambiguityLevel_'+task].copy()
             prob_amb = tt['prob_x_ambig_bayes'].as_matrix()
-            X['inter_prob_ambig_sqrt_prop_revealed'] = (prop_revealed*prob_amb).as_matrix()
+            X['inter_prob_ambig_ambiguityLevel'] = (prop_revealed*prob_amb).as_matrix()
 
-    if 'inter_prob_unambig_sqrt_prop_revealed' in params:
-            prop_revealed = X['sqrt_prop_revealed_'+task].copy()
+    if 'inter_prob_unambig_ambiguityLevel' in params:
+            prop_revealed = X['ambiguityLevel_'+task].copy()
             prob_unamb = tt['prob_x_unambig'].as_matrix()
-            X['inter_prob_unambig_sqrt_prop_revealed'] = (prop_revealed*prob_unamb).as_matrix()
+            X['inter_prob_unambig_ambiguityLevel'] = (prop_revealed*prob_unamb).as_matrix()
 
 
     X,y = preprocess_model(X,y,zscore=zscore)
@@ -332,6 +336,46 @@ def fit_model_split_amb_unamb_gain_loss(trial_table,cross_validate=False,combine
     out['pred_y']=yhat
     out['MID']=trial_table.MID[-1:]
     out['params']=results.params
+    out['llr_pvalue']=results.llr_pvalue
     out['pvalues']=results.pvalues
     out['pred_acc']=pred_acc
+    out['se'] = results.bse
+
     return(out)
+
+## function to plot parameters in a bar graph
+def plot_params(df,stripplot=False,outlier_cutoff=None):
+    plt.style.use(['seaborn-white', 'seaborn-paper'])
+    matplotlib.rc("font", family="Times New Roman")
+    sns.set_context('talk')
+    sns.set_style('white',{'figure.facecolor':'white'})
+
+
+    if outlier_cutoff is not None:
+        df = df[(df.beta>-1.0*outlier_cutoff)&(df.beta<outlier_cutoff)]
+
+    axis = sns.barplot(x='parameter',y='beta',hue='split',data=df,ci=95,alpha=0.4)
+
+    if stripplot:
+        sns.stripplot(x="parameter", y="beta",hue='split', data=df,alpha=0.2,jitter=True);
+
+    current_palette=sns.color_palette()
+    fig = plt.gcf()
+    fig.suptitle('Model Parameters:',fontsize=12,x=0.55)
+    sns.despine(ax=axis)
+    axis.set_ylabel('beta (Prob Choose Right (except on Ambig))',fontsize=12)
+    axis.set_xlabel('parameter',fontsize=12)
+    axis.set_xticklabels(df.parameter.unique(),rotation=45,fontsize=12,ha='right')
+    axis = plt.gca()
+    plt.legend(bbox_to_anchor=(1.05, 1), loc=2, borderaxespad=0.)
+
+
+    # change name if needed
+    #xlabels = axis.get_xticklabels()
+
+    #fig.suptitle('')
+    #axis.set_title('Model Parameters (Across all Subjects)')
+    #axis.set_xlabel('Parameter')
+    #axis.set_ylabel('Group Regression Coefficients \n (Probability Choosing Ambig)')
+    #plt.tight_layout()
+    return(fig)
