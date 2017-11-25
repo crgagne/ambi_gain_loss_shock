@@ -52,14 +52,15 @@ def triplet(model_param_df_merged, parameter, ambiguous = True):
     return(triplet_df)
 
 #function to plot mean parameter values for all tasks + errorbars
-def plotTripletAllSubs(triplet_df, parameter):
+def plotTripletAllSubs(triplet_df, parameter, title):
     m = triplet_df.mean(axis=0).as_matrix()
     triplet_df.mean(axis=0)
     se = triplet_df.std(axis=0)/np.sqrt(len(triplet_df))
     triplet_df.std(axis=0)/np.sqrt(len(triplet_df))
-    fig = plt.errorbar(x=[1,2,3],y=m,yerr=se)
+    fig = plt.errorbar(x=[1,2,3],y=m,yerr=se, label=parameter)
+    plt.legend()
     sns.despine()
-    plt.title(parameter)
+    plt.title(title)
     return(fig)
 
 #function for correlation
