@@ -354,16 +354,16 @@ def plot_params(df,stripplot=False,outlier_cutoff=None):
     if outlier_cutoff is not None:
         df = df[(df.beta>-1.0*outlier_cutoff)&(df.beta<outlier_cutoff)]
 
-    axis = sns.barplot(x='parameter',y='beta',hue='split',data=df,ci=95,alpha=0.4)
+    axis = sns.barplot(x='parameter',y='beta',hue='split', hue_order=['ambig_gain', 'ambig_loss', 'ambig_shock', 'unambig_gain', 'unambig_loss', 'unambig_shock'], errwidth=0.3, palette = ['blue', 'red', 'green', 'blue', 'red', 'green'], data=df,ci=95,alpha=0.4)
 
     if stripplot:
         sns.stripplot(x="parameter", y="beta",hue='split', data=df,alpha=0.2,jitter=True);
 
     current_palette=sns.color_palette()
     fig = plt.gcf()
-    fig.suptitle('Model Parameters:',fontsize=12,x=0.55)
+    fig.suptitle('Model Parameters',fontsize=12,x=0.55)
     sns.despine(ax=axis)
-    axis.set_ylabel('beta (Prob Choose Right (except on Ambig))',fontsize=12)
+    axis.set_ylabel('beta',fontsize=12)
     axis.set_xlabel('parameter',fontsize=12)
     axis.set_xticklabels(df.parameter.unique(),rotation=45,fontsize=12,ha='right')
     axis = plt.gca()

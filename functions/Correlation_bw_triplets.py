@@ -34,19 +34,17 @@ def triplet(model_param_df_merged, parameter, ambiguous = True):
     else:
 
         b1 = model_param_df_merged.loc[(model_param_df_merged.parameter==parameter)&
-                                            (model_param_df_merged.split=='unambig_gain'),['MID','beta']]
-        b1.MID=b1.MID.apply(lambda x: x.replace('_2','')) # change MIDs
+                                            (model_param_df_merged.split=='unambig_gain'),['MID','beta', 'se']]
 
         b2 = model_param_df_merged.loc[(model_param_df_merged.parameter==parameter)&
-                                            (model_param_df_merged.split=='unambig_loss'),['MID','beta']]
+                                            (model_param_df_merged.split=='unambig_loss'),['MID','beta', 'se']]
 
-        b2.MID=b2.MID.apply(lambda x: x.replace('_2','')) # change MIDs
 
         b3 = model_param_df_merged.loc[(model_param_df_merged.parameter==parameter)&
-                                            (model_param_df_merged.split=='unambig_shock'),['MID','beta']]
+                                            (model_param_df_merged.split=='unambig_shock'),['MID','beta', 'se']]
 
         triplet_df= b1.merge(b2,on='MID',how='outer').merge(b3,on='MID',how='outer')
-        triplet_df.columns=['MID','gain','loss','shock']
+        triplet_df.columns=['MID','gain', 'se_gain','loss', 'se_loss','shock', 'se_shock']
 
 
     return(triplet_df)
@@ -61,6 +59,8 @@ def plotTripletAllSubs(triplet_df, parameter, title):
     plt.legend()
     sns.despine()
     plt.title(title)
+    plt.xlabel('task')
+    plt.ylabel('beta parameter')
     return(fig)
 
 #function for correlation
