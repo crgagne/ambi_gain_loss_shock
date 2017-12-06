@@ -334,4 +334,5 @@ def fit_model_split_amb_unamb_gain_loss(trial_table,cross_validate=False,combine
     out['params']=results.params
     out['pvalues']=results.pvalues
     out['pred_acc']=pred_acc
+    out['llr_pvalue']=results.llr_pvalue
     return(out)
