@@ -79,6 +79,7 @@ def preprocess(df):
     #calculate revealed prob_o_l and prob_o_r from revealed tokens
     df['prob_x_l'] = df['revealed_x_l']/(df['revealed_x_l'] + df['revealed_o_l'])
     df['prob_x_r'] = df['revealed_x_r']/(df['revealed_x_r'] + df['revealed_o_r'])
+
     #add column with percentage revealed in ambiguous urn (=1 when both urns are unambiguous) and calculate how many tokens were presented in ambigupus urn (info_ambi) + the sqrt transformation (P)
     df['revealed_ambi'] =df[['revealed_left','revealed_right']].min(axis = 1)
     #df['info'] = df['revealed_ambi']*50
@@ -91,12 +92,16 @@ def preprocess(df):
     df.loc[(df['revealed_ambi'] < 1) & (df['revealed_left'] == 1), 'ambig_l'] = 0
     df['ambig_r']=1-df['ambig_l']
 
+    # convert ambiguous trial probs to bayesian probabilities
+    df['prob_x_l_bayes'] = df['prob_x_l'] # for non-ambiguous trials, use the regular probabilities
+    df['prob_x_r_bayes'] = df['prob_x_r']
+    df.loc[(df['ambig_l'] == 1),'prob_x_l_bayes'] = (df.revealed_x_l +1) / (df.revealed_x_l + df.revealed_o_l + 2) # for ambiguous trials, use the posterior expectation on uniform prior.
+    df.loc[(df['ambig_l'] == 0),'prob_x_r_bayes'] = (df.revealed_x_r +1) / (df.revealed_x_r + df.revealed_o_r + 2)
+
 
     # - 'resp_r_1' = 1 if participant chose right, 0 if left
     df.loc[(df['resp'] == 'right'), 'resp_r_1'] = 1
     df.loc[(df['resp'] == 'left'), 'resp_r_1'] = 0
-
-    #Tracer()()
 
     # - 'resp_amb_1' = 1 if participant chose ambiguous trials, 0 if left
     df['resp_amb_1'] = np.nan
@@ -114,8 +119,14 @@ def preprocess(df):
     df.loc[(df['ambig_l'] == 0), 'mag_unambig'] = df['mag_left']
     # - 'prob_o_ambig_bayes' - these are the probabailitiy of outcome so actually prob X
     df['prob_x_ambig_bayes'] = np.nan
+    df.loc[(df['ambig_l'] == 1), 'prob_x_ambig_bayes'] = df['prob_x_l_bayes']
+    df.loc[(df['ambig_l'] == 0), 'prob_x_ambig_bayes'] = df['prob_x_r_bayes']
+
+    # - 'prob_o_ambig_bayes' - these are the probabailitiy of outcome so actually prob X
+    df['prob_x_ambig_ml'] = np.nan
     df.loc[(df['ambig_l'] == 1), 'prob_x_ambig_bayes'] = df['prob_x_l']
     df.loc[(df['ambig_l'] == 0), 'prob_x_ambig_bayes'] = df['prob_x_r']
+
     # - 'prob_o_unambig'
     df['prob_x_unambig'] = np.nan
     df.loc[(df['ambig_l'] == 1), 'prob_x_unambig'] = df['prob_x_r']
@@ -124,7 +135,7 @@ def preprocess(df):
     df['gain_or_loss_trial']=np.repeat('gain',len(df))
     df.loc[df['mag_left']<0,'gain_or_loss_trial']='loss'
 
-    #revealed o and revealed x ambiguous (not that o here refers to outcome delivered!)
+    #revealed o and revealed x ambiguous (note that o here refers to outcome delivered!)
     df['revealed_x_ambig'] = np.nan
     df.loc[(df['ambig_l'] == 1.0), 'revealed_x_ambig'] = df['revealed_x_l']
     df.loc[(df['ambig_r'] == 1.0), 'revealed_x_ambig'] = df['revealed_x_r']
