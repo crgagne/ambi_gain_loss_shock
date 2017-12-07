@@ -165,61 +165,32 @@ def instruction_reading(df):
 
 
 #########
+def load_single_subject(vp,task='gain'):
+    '''Returns preprocessed dataFrame for a single subject
+       Parameters: vp (e.g. '11'), task (e.g. 'gain' or 'shock')
+    '''
 
-def calc_slider_val(slider_val):
+    if task=='gain' or task=='loss':
+        path = os.path.join(os.getcwd(),'..','data','data_gainloss_logfiles','vp' + vp + '_gainloss_processed.csv')
+        df = pd.read_csv(path, sep=",")
+        df=preprocess_gainloss(df)
+    elif task=='shock':
+        df = []
+        for sec in  ['1', '2', '3']:
+            path = os.path.join(os.getcwd(),'..','data','data_shock_logfiles','Expt1Pain_Behaviour_vp' + vp + '_' + sec + '.txt')
+            df_dummy = pd.read_csv(path, sep="\t", skiprows = [0])
+            df_dummy = df_dummy[:-1] #deletes last row of each section as it does not contain trial data
+            df_dummy['MID'] = 'vp'+ vp
+            df_dummy['section'] = sec
+            df_dummy.columns = df_dummy.columns.str.replace(' ','')
+            df.append(df_dummy)
+        df = pd.concat(df, ignore_index = True, join = 'inner')
+        df = preprocess_shock(df)
 
-    full_set_of_values =[  1.  ,   1.03,   1.06,   1.1 ,   1.13,   1.16,   1.2 ,   1.24,
-			 1.27,   1.31,   1.35,   1.39,   1.44,   1.48,   1.53,   1.57,
-			 1.62,   1.67,   1.72,   1.78,   1.83,   1.89,   1.95,   2.01,
-			 2.07,   2.13,   2.2 ,   2.26,   2.33,   2.4 ,   2.48,   2.56,
-			 2.63,   2.71,   2.8 ,   2.88,   2.97,   3.06,   3.16,   3.25,
-			 3.35,   3.46,   3.56,   3.67,   3.79,   3.9 ,   4.02,   4.15,
-			 4.27,   4.4 ,   4.54,   4.68,   4.82,   4.97,   5.12,   5.28,
-			 5.44,   5.61,   5.78,   5.96,   6.14,   6.33,   6.53,   6.73,
-			 6.94,   7.15,   7.37,   7.59,   7.83,   8.07,   8.32,   8.57,
-			 8.83,   9.11,   9.39,   9.67,   9.97,  10.28,  10.59,  10.92,
-			11.25,  11.6 ,  11.96,  12.32,  12.7 ,  13.09,  13.5 ,  13.91,
-			14.34,  14.78,  15.23,  15.7 ,  16.18,  16.68,  17.19,  17.72,
-			18.26,  18.83,  19.4 ,  20.  ]
-    sign = np.sign(slider_val)
-    try:
-        ratio = full_set_of_values[np.abs(slider_val)]
-        return(ratio*sign)
-    except:
-        return(np.nan)
+    df = preprocess(df)
 
+    if task=='shock':
+        df['gain_or_loss_trial']='shock'
 
-def preprocess_est(df):
-
-    #calculate revealed prob_o_left and prob_o_right from revealed tokens
-    df['prob_o_l'] = df['revealed_x_l']/(df['revealed_x_l'] + df['revealed_o_l'])
-    df['prob_o_r'] = df['revealed_x_r']/(df['revealed_x_r'] + df['revealed_o_r'])
-    #add column with percentage revealed in ambiguous urn (=1 when both urns are unambiguous) and calculate how many tokens were presented in ambigupus urn (info_ambi) + the sqrt transformation (P)
-    df['revealed_ambi'] =df[['revealed_left','revealed_right']].min(axis = 1)
-    df['info'] = df['revealed_ambi']*50
-    df['info_amb_sqrt'] = np.sqrt(df['info'])
-
-    # ratio
-    df['ratio_x_rl']=df.revealed_x_r/df.revealed_x_l
-    df['ratio_x_lr']=df.revealed_x_l/df.revealed_x_r
-    df['ratio'] = df[['ratio_x_rl','ratio_x_lr']].max(axis=1)
-    df.loc[df['ratio_x_rl']<1,'ratio'] =df.loc[df['ratio_x_rl']<1,'ratio']*-1.0
-
-    # getting slider value
-
-    df['est_ratio']=np.array([calc_slider_val(s) for s in df.slider_val])
 
     return(df)
-
-def calc_noresp_part2(df):
-    return((df['slider_val']==999).mean())
-
-def ratio_estimation(df):
-
-    is_notinf = ~np.isinf(df.ratio.as_matrix()) # get non inf rows
-    is_notnan = ~np.isnan(df.est_ratio)
-    selector = np.logical_and(is_notinf,is_notnan)
-    est_ratio = df.loc[selector,'est_ratio'] # get their estimated
-    ratio = df.loc[selector,'ratio']
-    c,p = pearsonr(est_ratio,ratio)
-    return(c,p)
