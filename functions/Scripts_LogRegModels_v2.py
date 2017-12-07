@@ -87,7 +87,7 @@ def fit_model(y,X,modelname,cross_validate=True,MID=None,zscore=True):
     if cross_validate:
         folds = 10
         permuted_index = np.random.permutation(X.index)
-        fold_size = len(X)/folds
+        fold_size = int(len(X)/folds)
         pR2_cv = np.zeros(folds)
         pred_acc_cv = np.zeros(folds)
         for fold in range(folds):
@@ -127,6 +127,8 @@ def fit_model(y,X,modelname,cross_validate=True,MID=None,zscore=True):
     out['pred_acc']=pred_acc
     out['pred_acc_cv']=pred_acc_cv
     out['pred_acc_cv_mean']=pred_acc_cv.mean()
+    out['llr_pvalue']=results.llr_pvalue
+    out['se'] = results.bse
 
 
     return(out)

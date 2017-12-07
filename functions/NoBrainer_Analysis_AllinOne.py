@@ -27,8 +27,8 @@ def better_choice_gainloss(df):
         left_better.append(lb)
         right_better.append(rb)
 
-    df['left_better']=left_better
-    df['right_better']=right_better
+    df.loc[:,'left_better']=left_better
+    df.loc[:,'right_better']=right_better
     return(df)
 
 def better_choice_shock(df):
@@ -46,13 +46,13 @@ def better_choice_shock(df):
 
 #indicate whether the better box was chosen
 def right_choice(df):
-    df['choseBetter'] = (df['resp'] == 'left') & (df['left_better']== True) | (df['resp'] == 'right') & (df['right_better']==True)
+    df.loc[:,'choseBetter'] = (df['resp'] == 'left') & (df['left_better']== True) | (df['resp'] == 'right') & (df['right_better']==True)
     return(df)
 
 #only keep trials that are 'no brainers'
 
 def keep_nobrainers(df):
-    df['noBrainer'] = (df['right_better'] != df['left_better'])
+    df.loc[:,'noBrainer'] = (df.loc[:,'right_better'] != df.loc[:,'left_better'])
     df = df[df.noBrainer == True]
     return(df)
 

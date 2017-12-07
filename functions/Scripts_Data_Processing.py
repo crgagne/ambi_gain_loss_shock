@@ -85,6 +85,9 @@ def preprocess(df):
     #df['info'] = df['revealed_ambi']*50
     df['ambiguityLevel'] = 1 - np.sqrt(df['revealed_ambi'])
 
+    df['ambiguityLevel_l'] = 1 - np.sqrt(df['revealed_left'])
+    df['ambiguityLevel_r'] = 1 - np.sqrt(df['revealed_right'])
+
     # ADDITIONAL TRIAL TABLE REQUIREMENTS FOR LOGISTIC REGRESSION
     # - ambig_l: is ambi on left (1, 0, or NA)
     df['ambig_l'] = np.nan

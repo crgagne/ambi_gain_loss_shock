@@ -1,7 +1,8 @@
 
 import pandas as pd
 import numpy as np
-
+from Scripts_LogRegModels_v2 import *
+from IPython.core.debugger import Tracer
 
 def fit_model_singRL(trial_table,params,combined=False,split_gain_loss=False,return_gain_or_loss='gain',zscore=True):
     '''
@@ -11,6 +12,10 @@ def fit_model_singRL(trial_table,params,combined=False,split_gain_loss=False,ret
         Example:
 
     '''
+
+    # make sure ambig presence is not null
+    trial_table.loc[trial_table.ambig_l.isnull(),'ambig_l']=0.0
+    trial_table.loc[trial_table.ambig_r.isnull(),'ambig_r']=0.0
 
 
     X = pd.DataFrame(data=np.ones(len(trial_table)),columns=['intercept_r'])
@@ -91,12 +96,12 @@ def fit_model_singRL(trial_table,params,combined=False,split_gain_loss=False,ret
     # ambiguity continuous
     if 'sqrt_prop_revealed' in params:
         if combined:
-            X['sqrt_prop_revealed_diff_rl_gain'] =trial_table['info_r_sqrt']-trial_table['info_l_sqrt']
-            X['sqrt_prop_revealed_diff_rl_loss'] =trial_table['info_r_sqrt']-trial_table['info_l_sqrt']
+            X['sqrt_prop_revealed_diff_rl_gain'] =trial_table['ambiguityLevel_r']-trial_table['ambiguityLevel_l']
+            X['sqrt_prop_revealed_diff_rl_loss'] =trial_table['ambiguityLevel_r']-trial_table['ambiguityLevel_l']
             X.loc[trial_table['gain_or_loss_trial']=='loss','sqrt_prop_revealed_diff_rl_gain']=0
             X.loc[trial_table['gain_or_loss_trial']=='gain','sqrt_prop_revealed_diff_rl_loss']=0
         else:
-            X['sqrt_prop_revealed_diff_rl'] =trial_table['info_r_sqrt']-trial_table['info_l_sqrt']
+            X['sqrt_prop_revealed_diff_rl'] =trial_table['ambiguityLevel_r']-trial_table['ambiguityLevel_l']
 
     # sticky choice
     if 'prevchoice' in params:
@@ -239,6 +244,7 @@ def fit_model_singRL(trial_table,params,combined=False,split_gain_loss=False,ret
 
     modelname = 'model_singRL_'+'_'.join(params)
     y = trial_table['resp_r_1'].as_matrix()
+
 
     # Split gain loss trials
     if split_gain_loss:
