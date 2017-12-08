@@ -36,7 +36,7 @@ def all_subs_no_brainer(vp_list,task='gain'):
     return(nobrainer)
 
 
-def all_subs_model_fits(vp_list,modelfunc,kwargs,resultnames=None):
+def all_subs_model_fits(vp_list,modelfunc,kwargs,resultnames=None, which_trial = 'all'):
 
     '''Only has the capacity to fit either shock OR gain OR loss at the moment'''
 
@@ -50,8 +50,14 @@ def all_subs_model_fits(vp_list,modelfunc,kwargs,resultnames=None):
 
     for vp in vp_list:
 
-        # get subject data frame (return_gain_or_loss is sloppy )
-        df = load_single_subject(vp,task=task)
+         #get subject data frame (return_gain_or_loss is sloppy )
+        if which_trial == 'all':
+            df = load_single_subject(vp,task=task, which_trial='all')
+        elif which_trial == 'firstTrials':
+            df = load_single_subject(vp,task=task, which_trial='firstTrials')
+        elif which_trial == 'lateTrials':
+            df = load_single_subject(vp,task=task, which_trial='lateTrials')
+
         MID = 'vp' + vp
 
         # Fit a model to each set of trials

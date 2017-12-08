@@ -165,7 +165,7 @@ def instruction_reading(df):
 
 
 #########
-def load_single_subject(vp,task='gain'):
+def load_single_subject(vp,task='gain',which_trial = 'all'):
     '''Returns preprocessed dataFrame for a single subject
        Parameters: vp (e.g. '11'), task (e.g. 'gain' or 'shock')
     '''
@@ -189,8 +189,15 @@ def load_single_subject(vp,task='gain'):
 
     df = preprocess(df)
 
+    # for trial by trial analysis
+    df['trial_per_block'] = np.tile([1, 2, 3, 4, 5], len(df.trial_number)/5)
+
+    if which_trial == 'firstTrials':
+        df = df.loc[(df['trial_per_block'] == 1) | (df['trial_per_block'] == 2) | (df['trial_per_block'] == 2)]
+    elif which_trial == 'lateTrials':
+        df = df.loc[(df['trial_per_block'] == 4) | (df['trial_per_block'] == 5)]
+
     if task=='shock':
         df['gain_or_loss_trial']='shock'
-
 
     return(df)

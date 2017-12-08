@@ -69,7 +69,7 @@ def fit_model_singRL(trial_table,params,task='gain',zscore=True):
         X['mag_diff_inter'] = X['mag_diff_rl']*ambig
 
     modelname = 'model_singRL_'+'_'.join(params)
-    y = trial_table['resp_r_1'].as_matrix()
+    y = trial_table['resp_r_1']#.astype('float').as_matrix()
 
     # Filter the Row's
     if task=='gain':
@@ -82,6 +82,7 @@ def fit_model_singRL(trial_table,params,task='gain',zscore=True):
         X = X.loc[trial_table['gain_or_loss_trial']=='shock',:]
         y = y[trial_table['gain_or_loss_trial']=='shock']
 
+    y=y.as_matrix()
     out = fit_model(y,X,modelname,MID=trial_table.MID[0],zscore=zscore)
 
     return(out)
