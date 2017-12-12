@@ -190,7 +190,7 @@ def load_single_subject(vp,task='gain',which_trial = 'all'):
     df = preprocess(df)
 
     # for trial by trial analysis
-    df['trial_per_block'] = np.tile([1, 2, 3, 4, 5], len(df.trial_number)/5)
+    df['trial_per_block'] = np.tile([1, 2, 3, 4, 5], int(len(df.trial_number)/5.0))
 
     if which_trial == 'firstTrials':
         df = df.loc[(df['trial_per_block'] == 1) | (df['trial_per_block'] == 2) | (df['trial_per_block'] == 3)]
