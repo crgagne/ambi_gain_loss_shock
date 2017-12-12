@@ -381,3 +381,39 @@ def plot_params(df,stripplot=False,outlier_cutoff=None):
     #axis.set_ylabel('Group Regression Coefficients \n (Probability Choosing Ambig)')
     #plt.tight_layout()
     return(fig)
+
+def plot_params_rl(df,stripplot=False,outlier_cutoff=None):
+    plt.style.use(['seaborn-white', 'seaborn-paper'])
+    matplotlib.rc("font", family="Times New Roman")
+    sns.set_context('talk')
+    sns.set_style('white',{'figure.facecolor':'white'})
+
+
+    if outlier_cutoff is not None:
+        df = df[(df.beta>-1.0*outlier_cutoff)&(df.beta<outlier_cutoff)]
+
+    axis = sns.barplot(x='parameter',y='beta',hue='task', hue_order=['gain', 'loss', 'shock'], errwidth=0.3, palette = ['blue', 'red', 'green'], data=df,ci=95,alpha=0.4)
+
+    if stripplot:
+        sns.stripplot(x="parameter", y="beta",hue='task', data=df,alpha=0.2,jitter=True);
+
+    current_palette=sns.color_palette()
+    fig = plt.gcf()
+    fig.suptitle('Model Parameters',fontsize=12,x=0.55)
+    sns.despine(ax=axis)
+    axis.set_ylabel('beta',fontsize=12)
+    axis.set_xlabel('parameter',fontsize=12)
+    axis.set_xticklabels(df.parameter.unique(),rotation=45,fontsize=12,ha='right')
+    axis = plt.gca()
+    plt.legend(bbox_to_anchor=(1.05, 1), loc=2, borderaxespad=0.)
+
+
+    # change name if needed
+    #xlabels = axis.get_xticklabels()
+
+    #fig.suptitle('')
+    #axis.set_title('Model Parameters (Across all Subjects)')
+    #axis.set_xlabel('Parameter')
+    #axis.set_ylabel('Group Regression Coefficients \n (Probability Choosing Ambig)')
+    #plt.tight_layout()
+    return(fig)

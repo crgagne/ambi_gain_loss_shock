@@ -193,9 +193,12 @@ def load_single_subject(vp,task='gain',which_trial = 'all'):
     df['trial_per_block'] = np.tile([1, 2, 3, 4, 5], len(df.trial_number)/5)
 
     if which_trial == 'firstTrials':
-        df = df.loc[(df['trial_per_block'] == 1) | (df['trial_per_block'] == 2) | (df['trial_per_block'] == 2)]
+        df = df.loc[(df['trial_per_block'] == 1) | (df['trial_per_block'] == 2) | (df['trial_per_block'] == 3)]
     elif which_trial == 'lateTrials':
         df = df.loc[(df['trial_per_block'] == 4) | (df['trial_per_block'] == 5)]
+
+    #if which_trial !='all':
+    df.reset_index(inplace=True)
 
     if task=='shock':
         df['gain_or_loss_trial']='shock'
