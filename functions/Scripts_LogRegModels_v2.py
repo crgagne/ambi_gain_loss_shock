@@ -392,7 +392,7 @@ def plot_params_rl(df,stripplot=False,outlier_cutoff=None):
     if outlier_cutoff is not None:
         df = df[(df.beta>-1.0*outlier_cutoff)&(df.beta<outlier_cutoff)]
 
-    axis = sns.barplot(x='parameter',y='beta',hue='task', hue_order=['gain', 'loss', 'shock'], errwidth=0.3, palette = ['blue', 'red', 'green'], data=df,ci=95,alpha=0.4)
+    axis = sns.barplot(x='parameter',y='beta',hue='task', hue_order=['gain', 'loss', 'shock'], errwidth=0.3, palette = ['blue', 'red', 'green'], data=df,ci=68,alpha=0.4)
 
     if stripplot:
         sns.stripplot(x="parameter", y="beta",hue='task', data=df,alpha=0.2,jitter=True);

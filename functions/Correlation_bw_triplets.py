@@ -49,6 +49,23 @@ def triplet(model_param_df_merged, parameter, ambiguous = True):
 
     return(triplet_df)
 
+def triplet_rl(model_param_df_merged, parameter):
+
+    b1 = model_param_df_merged.loc[(model_param_df_merged.parameter==parameter)&
+                                            (model_param_df_merged.task=='gain'),['MID','beta', "se"]]
+
+    b2 = model_param_df_merged.loc[(model_param_df_merged.parameter==parameter)&
+                                            (model_param_df_merged.task=='loss'),['MID','beta', 'se']]
+
+    b3 = model_param_df_merged.loc[(model_param_df_merged.parameter==parameter)&
+                                            (model_param_df_merged.task=='shock'),['MID','beta', 'se']]
+
+    triplet_df= b1.merge(b2,on='MID',how='outer').merge(b3,on='MID',how='outer')
+    triplet_df.columns=['MID','gain', 'se_gain','loss', 'se_loss','shock', 'se_shock']
+
+
+    return(triplet_df)
+
 #function to plot mean parameter values for all tasks + errorbars
 def plotTripletAllSubs(triplet_df, parameter, title):
     m = triplet_df.mean(axis=0).as_matrix()
