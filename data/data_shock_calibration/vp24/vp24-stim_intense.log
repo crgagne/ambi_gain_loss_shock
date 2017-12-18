@@ -1,0 +1,324 @@
+Scenario - subjective stimulus intensity
+Logfile written - 10/23/2017 19:35:21
+
+Subject	Trial	Event Type	Code	Time	TTime	Uncertainty	Duration	Uncertainty	ReqTime	ReqDur	Stim Type	Pair Index
+
+vp24	1	Picture	present_text	10333	0	1	7000	1	0	next	false_alarm	2
+vp24	1	Response	3	17078	6746	1
+vp24	2	Picture	VAS	17332	0	1	1167	1	0	next	other	0
+vp24	3	Picture	VAS	18499	0	1	1167	1	0	next	other	0
+vp24	4	Picture	VAS	19666	0	1	1333	1	0	next	other	0
+vp24	5	Picture	VAS	20999	0	1	1167	1	0	next	other	0
+vp24	6	Picture	VAS	22165	0	1	1167	1	0	next	other	0
+vp24	7	Picture	VAS	23332	0	1	1167	1	0	next	other	0
+vp24	8	Picture	VAS	24499	0	1	1167	1	0	next	other	0
+vp24	9	Picture	VAS	25665	0	1	1167	1	0	next	false_alarm	11
+vp24	9	Response	3	26122	457	1
+vp24	10	Picture	VAS	26832	0	1	1167	1	0	next	other	0
+vp24	11	Picture	present_text	27998	0	1	13833	1	0	next	false_alarm	14
+vp24	11	Response	3	41721	13723	3
+vp24	11	Response	4	74675	46676	0
+vp24	11	Text Input	1	77704	49706	0
+vp24	11	Response	3	77704	49706	0
+vp24	12	Picture	Jitter	77829	0	1	10166	1	0	next	other	0
+vp24	13	Picture	instruct	87995	0	1	20332	1	0	next	other	0
+vp24	13	Manual	shock delivered	107996	20001	NA
+vp24	14	Picture	present_text	108327	0	1	125160	1	0	next	false_alarm	22
+vp24	14	Response	3	233338	125011	1
+vp24	14	Response	5	238292	129965	0
+vp24	14	Text Input	2	244778	136451	0
+vp24	14	Response	3	244778	136451	0
+vp24	15	Picture	Jitter	244986	0	1	15166	1	0	next	other	0
+vp24	16	Picture	instruct	260152	0	1	20499	1	0	next	other	0
+vp24	16	Manual	shock delivered	280153	20001	NA
+vp24	16	Manual	shock delivered	280274	20121	NA
+vp24	17	Picture	present_text	280651	0	1	89162	1	0	next	false_alarm	31
+vp24	17	Response	3	369664	89013	3
+vp24	17	Text Input	4	381387	100736	0
+vp24	17	Response	3	381387	100736	0
+vp24	18	Picture	Jitter	381479	0	1	10166	1	0	next	other	0
+vp24	19	Picture	instruct	391645	0	1	20665	1	0	next	other	0
+vp24	19	Manual	shock delivered	411646	20001	NA
+vp24	19	Manual	shock delivered	411767	20121	NA
+vp24	19	Manual	shock delivered	411887	20242	NA
+vp24	19	Manual	shock delivered	412007	20362	NA
+vp24	20	Picture	present_text	412311	0	1	80662	1	0	next	false_alarm	41
+vp24	20	Response	3	492779	80469	0
+vp24	20	Text Input	8	505136	92826	0
+vp24	20	Response	3	505136	92826	0
+vp24	21	Picture	Jitter	505306	0	1	10166	1	0	next	other	0
+vp24	22	Picture	instruct	515472	0	1	21166	1	0	next	other	0
+vp24	22	Manual	shock delivered	535473	20001	NA
+vp24	22	Manual	shock delivered	535593	20121	NA
+vp24	22	Manual	shock delivered	535713	20242	NA
+vp24	22	Manual	shock delivered	535833	20362	NA
+vp24	22	Manual	shock delivered	535954	20482	NA
+vp24	22	Manual	shock delivered	536074	20602	NA
+vp24	22	Manual	shock delivered	536194	20723	NA
+vp24	22	Manual	shock delivered	536315	20843	NA
+vp24	23	Picture	present_text	536637	0	1	97661	1	0	next	false_alarm	55
+vp24	23	Response	3	634111	97474	2
+vp24	23	Response	4	642389	105752	1
+vp24	23	Text Input	16	660003	123365	1
+vp24	23	Response	3	660003	123365	1
+vp24	24	Picture	Jitter	660130	0	1	10166	1	0	next	other	0
+vp24	25	Picture	instruct	670297	0	1	22165	1	0	next	other	0
+vp24	25	Manual	shock delivered	690297	20001	NA
+vp24	25	Manual	shock delivered	690418	20121	NA
+vp24	25	Manual	shock delivered	690538	20241	NA
+vp24	25	Manual	shock delivered	690658	20362	NA
+vp24	25	Manual	shock delivered	690778	20482	NA
+vp24	25	Manual	shock delivered	690899	20602	NA
+vp24	25	Manual	shock delivered	691019	20722	NA
+vp24	25	Manual	shock delivered	691139	20843	NA
+vp24	25	Manual	shock delivered	691259	20963	NA
+vp24	25	Manual	shock delivered	691380	21083	NA
+vp24	25	Manual	shock delivered	691500	21203	NA
+vp24	25	Manual	shock delivered	691620	21324	NA
+vp24	25	Manual	shock delivered	691740	21444	NA
+vp24	25	Manual	shock delivered	691861	21565	NA
+vp24	25	Manual	shock delivered	691981	21685	NA
+vp24	25	Manual	shock delivered	692101	21805	NA
+vp24	26	Picture	present_text	692462	0	1	91662	1	0	next	false_alarm	78
+vp24	26	Response	3	783954	91492	3
+vp24	26	Response	5	793460	100998	0
+vp24	26	Text Input	32	820802	128340	1
+vp24	26	Response	3	820802	128340	1
+vp24	27	Picture	Jitter	820955	0	1	10166	1	0	next	other	0
+vp24	28	Picture	instruct	831121	0	1	23999	1	0	next	other	0
+vp24	28	Manual	shock delivered	851122	20001	NA
+vp24	28	Manual	shock delivered	851242	20121	NA
+vp24	28	Manual	shock delivered	851362	20241	NA
+vp24	28	Manual	shock delivered	851483	20362	NA
+vp24	28	Manual	shock delivered	851603	20482	NA
+vp24	28	Manual	shock delivered	851723	20602	NA
+vp24	28	Manual	shock delivered	851843	20722	NA
+vp24	28	Manual	shock delivered	851963	20842	NA
+vp24	28	Manual	shock delivered	852084	20963	NA
+vp24	28	Manual	shock delivered	852204	21083	NA
+vp24	28	Manual	shock delivered	852324	21203	NA
+vp24	28	Manual	shock delivered	852444	21323	NA
+vp24	28	Manual	shock delivered	852565	21444	NA
+vp24	28	Manual	shock delivered	852685	21564	NA
+vp24	28	Manual	shock delivered	852805	21684	NA
+vp24	28	Manual	shock delivered	852925	21804	NA
+vp24	28	Manual	shock delivered	853046	21925	NA
+vp24	28	Manual	shock delivered	853166	22045	NA
+vp24	28	Manual	shock delivered	853286	22165	NA
+vp24	28	Manual	shock delivered	853406	22286	NA
+vp24	28	Manual	shock delivered	853527	22406	NA
+vp24	28	Manual	shock delivered	853647	22526	NA
+vp24	28	Manual	shock delivered	853767	22646	NA
+vp24	28	Manual	shock delivered	853887	22766	NA
+vp24	28	Manual	shock delivered	854008	22887	NA
+vp24	28	Manual	shock delivered	854128	23007	NA
+vp24	28	Manual	shock delivered	854248	23127	NA
+vp24	28	Manual	shock delivered	854368	23247	NA
+vp24	28	Manual	shock delivered	854489	23368	NA
+vp24	28	Manual	shock delivered	854609	23488	NA
+vp24	28	Manual	shock delivered	854729	23608	NA
+vp24	28	Manual	shock delivered	854850	23729	NA
+vp24	29	Picture	present_text	855120	0	1	116327	1	0	next	false_alarm	117
+vp24	29	Response	3	971250	116131	0
+vp24	29	Text Input	40	1006356	151236	0
+vp24	29	Response	3	1006356	151236	0
+vp24	30	Picture	Jitter	1006611	0	1	15166	1	0	next	other	0
+vp24	31	Picture	instruct	1021777	0	1	24999	1	0	next	other	0
+vp24	31	Manual	shock delivered	1041778	20001	NA
+vp24	31	Manual	shock delivered	1041898	20121	NA
+vp24	31	Manual	shock delivered	1042019	20242	NA
+vp24	31	Manual	shock delivered	1042139	20362	NA
+vp24	31	Manual	shock delivered	1042259	20482	NA
+vp24	31	Manual	shock delivered	1042379	20602	NA
+vp24	31	Manual	shock delivered	1042499	20722	NA
+vp24	31	Manual	shock delivered	1042620	20843	NA
+vp24	31	Manual	shock delivered	1042740	20963	NA
+vp24	31	Manual	shock delivered	1042860	21083	NA
+vp24	31	Manual	shock delivered	1042980	21203	NA
+vp24	31	Manual	shock delivered	1043101	21323	NA
+vp24	31	Manual	shock delivered	1043221	21444	NA
+vp24	31	Manual	shock delivered	1043341	21564	NA
+vp24	31	Manual	shock delivered	1043461	21684	NA
+vp24	31	Manual	shock delivered	1043581	21804	NA
+vp24	31	Manual	shock delivered	1043702	21925	NA
+vp24	31	Manual	shock delivered	1043822	22045	NA
+vp24	31	Manual	shock delivered	1043942	22165	NA
+vp24	31	Manual	shock delivered	1044062	22285	NA
+vp24	31	Manual	shock delivered	1044182	22405	NA
+vp24	31	Manual	shock delivered	1044303	22526	NA
+vp24	31	Manual	shock delivered	1044423	22646	NA
+vp24	31	Manual	shock delivered	1044543	22766	NA
+vp24	31	Manual	shock delivered	1044663	22886	NA
+vp24	31	Manual	shock delivered	1044783	23006	NA
+vp24	31	Manual	shock delivered	1044904	23127	NA
+vp24	31	Manual	shock delivered	1045024	23247	NA
+vp24	31	Manual	shock delivered	1045144	23367	NA
+vp24	31	Manual	shock delivered	1045264	23487	NA
+vp24	31	Manual	shock delivered	1045385	23608	NA
+vp24	31	Manual	shock delivered	1045505	23728	NA
+vp24	31	Manual	shock delivered	1045626	23849	NA
+vp24	31	Manual	shock delivered	1045747	23969	NA
+vp24	31	Manual	shock delivered	1045867	24090	NA
+vp24	31	Manual	shock delivered	1045987	24210	NA
+vp24	31	Manual	shock delivered	1046107	24330	NA
+vp24	31	Manual	shock delivered	1046227	24450	NA
+vp24	31	Manual	shock delivered	1046348	24571	NA
+vp24	31	Manual	shock delivered	1046468	24691	NA
+vp24	32	Picture	present_text	1046776	0	1	565802	1	0	next	false_alarm	163
+vp24	32	Response	3	1612421	565646	4
+vp24	32	Response	4	1619440	572664	1
+vp24	32	Text Input	16	1642855	596079	0
+vp24	32	Response	3	1642855	596079	0
+vp24	33	Picture	Jitter	1643076	0	1	15166	1	0	next	other	0
+vp24	34	Picture	instruct	1658242	0	1	22165	1	0	next	other	0
+vp24	34	Manual	shock delivered	1678243	20001	NA
+vp24	34	Manual	shock delivered	1678364	20122	NA
+vp24	34	Manual	shock delivered	1678484	20242	NA
+vp24	34	Manual	shock delivered	1678604	20362	NA
+vp24	34	Manual	shock delivered	1678724	20482	NA
+vp24	34	Manual	shock delivered	1678845	20603	NA
+vp24	34	Manual	shock delivered	1678965	20723	NA
+vp24	34	Manual	shock delivered	1679085	20843	NA
+vp24	34	Manual	shock delivered	1679205	20963	NA
+vp24	34	Manual	shock delivered	1679326	21084	NA
+vp24	34	Manual	shock delivered	1679446	21204	NA
+vp24	34	Manual	shock delivered	1679566	21324	NA
+vp24	34	Manual	shock delivered	1679687	21445	NA
+vp24	34	Manual	shock delivered	1679807	21565	NA
+vp24	34	Manual	shock delivered	1679927	21685	NA
+vp24	34	Manual	shock delivered	1680047	21805	NA
+vp24	35	Picture	present_text	1680407	0	1	205989	1	0	next	false_alarm	186
+vp24	35	Response	3	1886254	205846	2
+vp24	35	Response	5	1897312	216904	0
+vp24	35	Text Input	32	1900323	219915	0
+vp24	35	Response	3	1900323	219915	0
+vp24	36	Picture	Jitter	1900562	0	1	10166	1	0	next	other	0
+vp24	37	Picture	instruct	1910728	0	1	23999	1	0	next	other	0
+vp24	37	Manual	shock delivered	1930729	20001	NA
+vp24	37	Manual	shock delivered	1930850	20121	NA
+vp24	37	Manual	shock delivered	1930970	20242	NA
+vp24	37	Manual	shock delivered	1931090	20362	NA
+vp24	37	Manual	shock delivered	1931210	20482	NA
+vp24	37	Manual	shock delivered	1931331	20602	NA
+vp24	37	Manual	shock delivered	1931451	20723	NA
+vp24	37	Manual	shock delivered	1931571	20843	NA
+vp24	37	Manual	shock delivered	1931692	20963	NA
+vp24	37	Manual	shock delivered	1931812	21084	NA
+vp24	37	Manual	shock delivered	1931932	21204	NA
+vp24	37	Manual	shock delivered	1932052	21324	NA
+vp24	37	Manual	shock delivered	1932173	21444	NA
+vp24	37	Manual	shock delivered	1932293	21565	NA
+vp24	37	Manual	shock delivered	1932413	21685	NA
+vp24	37	Manual	shock delivered	1932533	21805	NA
+vp24	37	Manual	shock delivered	1932654	21925	NA
+vp24	37	Manual	shock delivered	1932774	22046	NA
+vp24	37	Manual	shock delivered	1932894	22166	NA
+vp24	37	Manual	shock delivered	1933014	22286	NA
+vp24	37	Manual	shock delivered	1933135	22407	NA
+vp24	37	Manual	shock delivered	1933255	22527	NA
+vp24	37	Manual	shock delivered	1933375	22647	NA
+vp24	37	Manual	shock delivered	1933496	22767	NA
+vp24	37	Manual	shock delivered	1933616	22888	NA
+vp24	37	Manual	shock delivered	1933736	23008	NA
+vp24	37	Manual	shock delivered	1933856	23128	NA
+vp24	37	Manual	shock delivered	1933977	23248	NA
+vp24	37	Manual	shock delivered	1934097	23369	NA
+vp24	37	Manual	shock delivered	1934217	23489	NA
+vp24	37	Manual	shock delivered	1934337	23609	NA
+vp24	37	Manual	shock delivered	1934457	23729	NA
+vp24	38	Picture	present_text	1934727	0	1	431976	1	0	next	false_alarm	225
+vp24	38	Response	3	2366456	431729	3
+vp24	38	Response	4	2373707	438980	0
+vp24	38	Text Input	16	2401503	466776	0
+vp24	38	Response	3	2401503	466776	0
+vp24	39	Picture	Jitter	2401701	0	1	5166	1	0	next	other	0
+vp24	40	Picture	instruct	2406867	0	1	22166	1	0	next	other	0
+vp24	40	Manual	shock delivered	2426868	20001	NA
+vp24	40	Manual	shock delivered	2426989	20121	NA
+vp24	40	Manual	shock delivered	2427109	20242	NA
+vp24	40	Manual	shock delivered	2427229	20362	NA
+vp24	40	Manual	shock delivered	2427350	20482	NA
+vp24	40	Manual	shock delivered	2427470	20603	NA
+vp24	40	Manual	shock delivered	2427590	20723	NA
+vp24	40	Manual	shock delivered	2427710	20843	NA
+vp24	40	Manual	shock delivered	2427831	20963	NA
+vp24	40	Manual	shock delivered	2427951	21083	NA
+vp24	40	Manual	shock delivered	2428071	21204	NA
+vp24	40	Manual	shock delivered	2428191	21324	NA
+vp24	40	Manual	shock delivered	2428311	21444	NA
+vp24	40	Manual	shock delivered	2428432	21564	NA
+vp24	40	Manual	shock delivered	2428552	21685	NA
+vp24	40	Manual	shock delivered	2428672	21805	NA
+vp24	41	Picture	present_text	2429033	0	1	284984	1	0	next	false_alarm	248
+vp24	41	Response	3	2713755	284722	3
+vp24	41	Response	4	2719989	290956	0
+vp24	41	Text Input	16	2750442	321409	1
+vp24	41	Response	3	2750442	321409	1
+vp24	42	Picture	Jitter	2750682	0	1	10166	1	0	next	other	0
+vp24	43	Picture	instruct	2760848	0	1	22165	1	0	next	other	0
+vp24	43	Manual	shock delivered	2780849	20001	NA
+vp24	43	Manual	shock delivered	2780969	20121	NA
+vp24	43	Manual	shock delivered	2781090	20242	NA
+vp24	43	Manual	shock delivered	2781210	20362	NA
+vp24	43	Manual	shock delivered	2781330	20482	NA
+vp24	43	Manual	shock delivered	2781450	20602	NA
+vp24	43	Manual	shock delivered	2781570	20722	NA
+vp24	43	Manual	shock delivered	2781691	20843	NA
+vp24	43	Manual	shock delivered	2781811	20963	NA
+vp24	43	Manual	shock delivered	2781931	21083	NA
+vp24	43	Manual	shock delivered	2782051	21203	NA
+vp24	43	Manual	shock delivered	2782171	21323	NA
+vp24	43	Manual	shock delivered	2782292	21444	NA
+vp24	43	Manual	shock delivered	2782412	21564	NA
+vp24	43	Manual	shock delivered	2782532	21684	NA
+vp24	43	Manual	shock delivered	2782652	21804	NA
+vp24	44	Picture	present_text	2783013	0	1	109327	1	0	next	false_alarm	271
+vp24	44	Response	3	2892218	109205	2
+vp24	44	Response	5	2910366	127352	0
+vp24	44	Text Input	32	2927234	144221	1
+vp24	44	Response	3	2927234	144221	1
+vp24	45	Picture	Jitter	2927339	0	1	5166	1	0	next	other	0
+vp24	46	Picture	instruct	2932505	0	1	23999	1	0	next	other	0
+vp24	46	Manual	shock delivered	2952506	20001	NA
+vp24	46	Manual	shock delivered	2952627	20121	NA
+vp24	46	Manual	shock delivered	2952747	20242	NA
+vp24	46	Manual	shock delivered	2952867	20362	NA
+vp24	46	Manual	shock delivered	2952988	20482	NA
+vp24	46	Manual	shock delivered	2953108	20603	NA
+vp24	46	Manual	shock delivered	2953228	20723	NA
+vp24	46	Manual	shock delivered	2953348	20843	NA
+vp24	46	Manual	shock delivered	2953469	20963	NA
+vp24	46	Manual	shock delivered	2953589	21083	NA
+vp24	46	Manual	shock delivered	2953709	21204	NA
+vp24	46	Manual	shock delivered	2953830	21324	NA
+vp24	46	Manual	shock delivered	2953950	21444	NA
+vp24	46	Manual	shock delivered	2954070	21565	NA
+vp24	46	Manual	shock delivered	2954190	21685	NA
+vp24	46	Manual	shock delivered	2954311	21805	NA
+vp24	46	Manual	shock delivered	2954431	21926	NA
+vp24	46	Manual	shock delivered	2954551	22046	NA
+vp24	46	Manual	shock delivered	2954671	22166	NA
+vp24	46	Manual	shock delivered	2954792	22286	NA
+vp24	46	Manual	shock delivered	2954912	22406	NA
+vp24	46	Manual	shock delivered	2955032	22527	NA
+vp24	46	Manual	shock delivered	2955152	22647	NA
+vp24	46	Manual	shock delivered	2955273	22767	NA
+vp24	46	Manual	shock delivered	2955393	22888	NA
+vp24	46	Manual	shock delivered	2955513	23008	NA
+vp24	46	Manual	shock delivered	2955633	23128	NA
+vp24	46	Manual	shock delivered	2955754	23248	NA
+vp24	46	Manual	shock delivered	2955874	23369	NA
+vp24	46	Manual	shock delivered	2955994	23489	NA
+vp24	46	Manual	shock delivered	2956115	23609	NA
+vp24	46	Manual	shock delivered	2956235	23730	NA
+vp24	47	Picture	present_text	2956504	0	1	119327	1	0	next	false_alarm	310
+vp24	47	Response	3	3075687	119183	3
+vp24	47	Response	4	3079474	122970	1
+vp24	47	Text Input	1	3095345	138841	0
+vp24	47	Response	3	3095345	138841	0
+vp24	48	Picture	Jitter	3095496	0	1	5166	1	0	next	other	0
+vp24	49	Picture	instruct	3100663	0	1	20332	1	0	next	other	0
+vp24	49	Manual	shock delivered	3120664	20001	NA
+vp24	50	Picture	present_text	3120995	0	1	64232465	1	0	next	false_alarm	318
+vp24	50	Response	3	67353189	64232194	3
+vp24	50	Quit		67386032	64265037	NA
