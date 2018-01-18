@@ -160,31 +160,31 @@ def plotTriplet(triplet_df, parameter):
 
     return(fig)
 
-def plotTriplet_task(gain, loss, shock):
+def plotTriplet_task(gain, loss, shock,param1='magdiff',param2='probdiff'):
 
     '''
     function for scatterplot showing correlations of parameters between tasks
     '''
     fig,axes = plt.subplots(1,3,figsize=(12,4),sharey=True,sharex=True)
-    axes[0].scatter(gain['magdiff'],gain['probdiff'])
-    axes[0].set_xlabel('beta(magdiff)')
-    axes[0].set_ylabel('beta(probdiff)')
-    r,p=spearmanr(gain['magdiff'],gain['probdiff'])
-    axes[0].set_title('magdiff/probdiff r={0} p={1}'.format(np.round(r,2),np.round(p,2)))
+    axes[0].scatter(gain[param1],gain[param2])
+    axes[0].set_xlabel(param1)
+    axes[0].set_ylabel(param2)
+    r,p=spearmanr(gain[param1],gain[param2])
+    axes[0].set_title('gain r={0} p={1}'.format(np.round(r,2),np.round(p,2)))
     axes[0].set_aspect('equal')
 
-    axes[1].scatter(loss['magdiff'],loss['probdiff'])
-    axes[1].set_xlabel('beta(magdiff)')
-    axes[1].set_ylabel('beta(probdiff)')
-    r,p=spearmanr(loss['magdiff'],loss['probdiff'])
-    axes[1].set_title('magdiff/loss r={0} p={1}'.format(np.round(r,2),np.round(p,2)))
+    axes[1].scatter(loss[param1],loss[param2])
+    axes[1].set_xlabel(param1)
+    axes[1].set_ylabel(param2)
+    r,p=spearmanr(loss[param1],loss[param2])
+    axes[1].set_title('loss r={0} p={1}'.format(np.round(r,2),np.round(p,2)))
     axes[1].set_aspect('equal')
 
-    axes[2].scatter(shock['magdiff'], shock['probdiff'])
-    axes[2].set_xlabel('beta(magdiff)')
-    axes[2].set_ylabel('beta(probdiff)')
-    r,p=spearmanr(shock['magdiff'],shock['probdiff'])
-    axes[2].set_title('magdiff/probdiff r={0} p={1}'.format(np.round(r,2),np.round(p,2)))
+    axes[2].scatter(shock[param1], shock[param2])
+    axes[2].set_xlabel(param1)
+    axes[2].set_ylabel(param2)
+    r,p=spearmanr(shock[param1], shock[param2])
+    axes[2].set_title('shock r={0} p={1}'.format(np.round(r,2),np.round(p,2)))
     axes[2].set_aspect('equal')
     sns.despine()
 

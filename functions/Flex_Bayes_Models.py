@@ -1,3 +1,9 @@
+import pandas as pd
+import numpy as np
+import statsmodels.api as sm
+from scipy.optimize import minimize
+import scipy.stats as stats
+from IPython.core.debugger import Tracer
 
 def flexible_post(alpha,beta,a,b,neff=1.0):
     p_s = np.arange(0.01,1.0,.01)

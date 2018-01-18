@@ -52,9 +52,11 @@ def preprocess_model(X,y,zscore=True,remove_1back=False):
 
 def calc_model_fit(y,yhat,k,n):
 
-    loglik = (y*np.log(yhat) + (1-y)*np.log(1-yhat)).sum()  # this matches output of model so we're good here
+    meps = np.finfo(float).eps
+    loglik=(y*np.log(yhat+meps) + (1-y)*np.log(1-yhat+meps)).sum()
+    #loglik = (y*np.log(yhat) + (1-y)*np.log(1-yhat)).sum()  # this matches output of model so we're good here
     yhat_null = y.sum()/len(y)
-    logliknull = (y*np.log(yhat_null) + (1-y)*np.log(1-yhat_null)).sum()
+    logliknull = (y*np.log(yhat_null+meps) + (1-y)*np.log(1-yhat_null+meps)).sum()
 
     BIC = np.log(n)*k - 2.0*loglik
     AIC = 2.0*k - 2.0*loglik
@@ -249,14 +251,16 @@ def fit_model_split_amb_unamb_gain_loss(trial_table,cross_validate=False,combine
     if 'prob_total' in params:
         X['prob_total_'+task]=(tt['prob_x_ambig_bayes']+tt['prob_x_unambig']).as_matrix()
 
+    #Tracer()()
+
     if 'ambiguityLevel' in params:
         X['ambiguityLevel_'+task]=(tt['ambiguityLevel']).as_matrix()
 
-    # posterior alpha, beta
-    alpha = tt['revealed_x_ambig'].as_matrix().astype('float')+1
-    beta = tt['revealed_o_ambig'].as_matrix().astype('float')+1 # +1 is for uniform prior
-
     if 'var' in params:
+        # posterior alpha, beta
+        alpha = tt['revealed_x_ambig'].as_matrix().astype('float')+1
+        beta = tt['revealed_o_ambig'].as_matrix().astype('float')+1 # +1 is for uniform prior
+
         var = (alpha*beta)/((alpha+beta)**2*(alpha+beta+1))
         X['var_'+task] = var
 
@@ -316,7 +320,7 @@ def fit_model_split_amb_unamb_gain_loss(trial_table,cross_validate=False,combine
     X,y = preprocess_model(X,y,zscore=zscore)
     if 'trial_number' in X.columns:
         X = X.drop('trial_number',axis=1)
-    #Tracer()()
+
 
 
     results = sm.Logit(y,X).fit(disp=False)

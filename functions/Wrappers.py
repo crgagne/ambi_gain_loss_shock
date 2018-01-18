@@ -2,7 +2,6 @@ import os
 import pandas as pd
 from Scripts_Data_Processing import *
 from  NoBrainer_Analysis_AllinOne import *
-from  Correlation_bw_triplets import *
 
 def all_subs_no_brainer(vp_list,task='gain'):
     '''
@@ -34,6 +33,7 @@ def all_subs_no_brainer(vp_list,task='gain'):
     #make dataframe for nb performance
     nobrainer = pd.DataFrame(vp_perform_gainloss_list,columns=['MID','nbperf'])
     return(nobrainer)
+
 
 
 def all_subs_model_fits(vp_list,modelfunc,kwargs,resultnames=None, which_trial = 'all'):
@@ -83,3 +83,23 @@ def all_subs_model_fits(vp_list,modelfunc,kwargs,resultnames=None, which_trial =
     model_summary_df['task']=task
 
     return(model_summary_df,model_param_df)
+
+
+def all_subs_model_fits_all_tasks(vp_list,modelfunc,kwargs,savename,resultnames=None, which_trial = 'all'):
+
+    # fit model
+    kwargs['task']='gain'
+    model_summary_df_g, model_param_df_g = all_subs_model_fits(vp_list,modelfunc,kwargs,resultnames=resultnames)
+
+    kwargs['task']='loss'
+    model_summary_df_l, model_param_df_l = all_subs_model_fits(vp_list,modelfunc,kwargs,resultnames=resultnames)
+
+    kwargs['task']='shock'
+    model_summary_df_s, model_param_df_s = all_subs_model_fits(vp_list,modelfunc,kwargs,resultnames=resultnames)
+
+    # stacking all the df's for a single model
+    model_param_df = pd.concat((model_param_df_l,model_param_df_g,model_param_df_s))
+    model_summary_df = pd.concat((model_summary_df_l,model_summary_df_g,model_summary_df_s))
+
+    model_param_df.to_csv('../output/model_fits/model_param_df_'+savename+'.csv')
+    model_summary_df.to_csv('../output/model_fits/model_summary_df_'+savename+'.csv')

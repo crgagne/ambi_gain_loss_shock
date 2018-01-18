@@ -171,10 +171,21 @@ def load_single_subject(vp,task='gain',which_trial = 'all'):
     '''
 
     if task=='gain' or task=='loss':
+        if vp=='23':
+            vp='23_2'
+        if vp=='25':
+            vp='25_2'
+        if vp=='26':
+            vp='26_2'
+        if vp=='27':
+            vp='27_2'
+        if vp=='28':
+            vp='28_2'
         path = os.path.join(os.getcwd(),'..','data','data_gainloss_logfiles','vp' + vp + '_gainloss_processed.csv')
         df = pd.read_csv(path, sep=",")
         df=preprocess_gainloss(df)
     elif task=='shock':
+
         df = []
         for sec in  ['1', '2', '3']:
             path = os.path.join(os.getcwd(),'..','data','data_shock_logfiles','Expt1Pain_Behaviour_vp' + vp + '_' + sec + '.txt')
